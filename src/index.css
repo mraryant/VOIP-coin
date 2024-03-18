@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient: linear-gradient(90deg, #e18dff 0%, #3d73ff 96.4%);
+  --primary-color: #e18dff;
+  --secondry1-color: #ae3dff;
+  --secondry-color: #5943e1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: outfit;
+  src: url("../src/assets/Outfit-VariableFont_wght.ttf");
+}
+
+.font-outfit {
+  font-family: outfit;
+}
+
+.text-primary-gradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.border-gradient {
+  border-image: linear-gradient(90deg, #e18dff 0%, #3d73ff 96.4%);
+  border-image-slice: 1;
+}
+
+.navcar {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .navcar::before {
+    content: ""; /* Ensures the pseudo-element is generated */
+    position: absolute;
+    top: -15px;
+    left: 94%;
+    border-bottom: 15px solid #1f2937;
+    border-left: 15px solid transparent;
+
+    /* Add your styles for the ::before element here */
+    width: 10px;
+    height: 10px;
+    /* background-color: red; */
+  }
+}
