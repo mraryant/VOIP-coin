@@ -39,6 +39,11 @@ body {
   border-image: linear-gradient(90deg, #e18dff 0%, #3d73ff 96.4%);
   border-image-slice: 1;
 }
+.border-toko {
+  border-top: 1.5px solid #f0f0f0;
+  border-left: 1.5px solid #969696;
+  border-right: 1.5px solid #8f8e8e;
+}
 
 .navcar {
   position: relative;

@@ -14,15 +14,40 @@ const Hero = () => {
 
     return (
         <>
+            
             <div
                 id="hero-main"
                 className=" mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
             >
-                <div className="  absolute left-0 bottom-0 bg-gradient-to-t from-black via-[rgba(0, 143, 129, 0.0061)] to-[rgba(0, 0, 0, 1)] w-[100%] h-[100px]  bottom-0 z-3"></div>
+
+
+                <div id="blob" className=" absolute left-0 top-[-10%]  z-0 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1246" height="1010" viewBox="0 0 1246 1010" fill="none">
+                        <g filter="url(#filter0_bdf_1020_171)">
+                            <path d="M-63.1577 238.455C13.7903 93.0208 142.965 102.611 263.676 166.478C384.388 230.346 681.873 305.569 604.925 451.003C874.254 658.547 128.005 825.459 7.29294 761.592C-113.419 697.724 -140.106 383.889 -63.1577 238.455Z" fill="#551FE5" fillOpacity="0.3" shapeRendering="crispEdges" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_bdf_1020_171" x="-332.812" y="-104.109" width="1577.82" height="1113.41" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_171" />
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dx="352" dy="4" />
+                                <feGaussianBlur stdDeviation="114.95" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="effect1_backgroundBlur_1020_171" result="effect2_dropShadow_1020_171" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1020_171" result="shape" />
+                                <feGaussianBlur stdDeviation="113.15" result="effect3_foregroundBlur_1020_171" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+
 
                 <div
                     id="hero-left"
-                    className=" mt-[100px] w-[60%] h-[100%] flex flex-col justify-center  gap-[4vmax] desktop:w-[100%]  desktop:mt-[50px] "
+                    className=" z-10 mt-[100px] w-[60%] h-[100%] flex flex-col justify-center  gap-[4vmax] desktop:w-[100%]  desktop:mt-[50px] "
                 >
                     <div id="hero-left-top" className="  flex flex-col gap-[3vmax]">
 
@@ -103,7 +128,7 @@ const Hero = () => {
 
                 <div
                     id="hero-right"
-                    className="relative mt-10 w-[40%] h-[100%] flex justify-center gap-0  desktop:w-[100%] "
+                    className="relative z-10 mt-10 w-[40%] h-[100%] flex justify-center gap-0  desktop:w-[100%] "
                 >
 
                     <div

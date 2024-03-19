@@ -7,7 +7,7 @@ const Audits = () => {
     return (
         <>
             <div id="audit-main" className=" py-20">
-                <div className="relative flex flex-col  items-center gap-20 min-h-[50vh]   w-[100vw]  justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center ">
+                <div className="relative flex flex-col  items-center gap-20 min-h-[20vh]   w-[100vw]  justify-center   px-4    md:px-20 desktop:flex-col desktop:items-center ">
                     {/* <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
                         <h1
                             className='text-5xl  font-bold tablet:text-4xl '>

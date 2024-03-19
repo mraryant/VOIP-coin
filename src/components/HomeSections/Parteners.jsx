@@ -67,7 +67,6 @@ const Parteners = () => {
         autoplay: true,
         autoplaySpeed: 2000, // Autoplay speed in milliseconds
         pauseOnHover: true, // Pause autoplay on hover
-
         rtl: true,
 
 
@@ -75,13 +74,13 @@ const Parteners = () => {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 },
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 },
             },
         ],

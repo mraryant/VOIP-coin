@@ -19,11 +19,37 @@ const About = () => {
     return (
         <>
             {/* bg-[url('/assets/aboutbg.svg')] */}
-            <div className="flex flex-col items-center justify-center my-[100px]">
-                <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
+            <div className="flex relative flex-col items-center justify-center my-[100px]">
+
+
+                <div id="blob" className=" absolute right-0 top-[10%]  z-0 " >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={836} height={987} viewBox="0 0 836 987" fill="none">
+                        <g filter="url(#filter0_bdf_1020_149)">
+                            <path d="M833 519.62C833 642.58 715.884 753 593.071 753C470.257 753 227 614.913 227 491.953C227 368.993 507.645 227 630.458 227C753.272 227 833 396.66 833 519.62Z" fill="#551FE5" fillOpacity="0.35" shapeRendering="crispEdges" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_bdf_1020_149" x="0.699997" y="0.699997" width="1414.2" height="986.2" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                <feFlood floodOpacity={0} result="BackgroundImageFix" />
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_149" />
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dx={352} dy={4} />
+                                <feGaussianBlur stdDeviation="114.95" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="effect1_backgroundBlur_1020_149" result="effect2_dropShadow_1020_149" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1020_149" result="shape" />
+                                <feGaussianBlur stdDeviation="113.15" result="effect3_foregroundBlur_1020_149" />
+                            </filter>
+                        </defs>
+                    </svg>
+
+                </div>
+
+                <div className=" z-10  text-center  flex flex-col justify-center items-center gap-7 ">
                     <h1
                         className='text-5xl  font-bold '>
-                        What Is <span className="text-primary-gradient    " >Voip Finance</span>  
+                        What Is <span className="text-primary-gradient    " >Voip Finance</span>
                     </h1>
                     <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
                         VOIP Finance aims to disrupt the traditional VoIP industry by leveraging blockchain technology to provide a decentralized, secure, and cost-effective solution for voice communication. The VOIP token serves as the native currency within the VOIP Finance ecosystem, enabling users to
@@ -31,7 +57,7 @@ const About = () => {
                 </div>
 
 
-                <div id="about-main" className=" relative flex justify-center items-center py-10 min-h-[100vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
+                <div id="about-main" className=" z-10 relative flex justify-center items-center py-10 min-h-[100vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
 
 
 

@@ -29,7 +29,7 @@ const Navbar = () => {
 
             <nav
                 className={`${isScrolled ? 'bg-black dark:transparent' : 'bg-transparent'
-                    } w-full overflow-x-hidden z-[99] top-0 start-0 border-b border-none dark:border-gray-600`}
+                    } w-full z-10 overflow-x-hidden   top-0 start-0 border-b border-none dark:border-gray-600`}
             >
                 <div className=" max-w-full   flex flex-wrap items-center justify-between mx-auto p-4 px-4 md:p-4 md:px-8">
                     <a href="#">
@@ -39,7 +39,7 @@ const Navbar = () => {
                         </div>
                     </a>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <button type="button" className="btn oxanium text-white   font-medium   text-sm       first-line  phone:h-[40px] ">Buy Token</button>
+                        <button type="button" className="   btn oxanium text-white   font-medium phone:font-light    text-sm first-line  phone:h-[40px]  ">Buy Token</button>
                         <button
                             onClick={toggleNav}
                             type="button"

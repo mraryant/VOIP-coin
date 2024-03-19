@@ -12,15 +12,19 @@ import Howtobuy from "../components/HomeSections/Howtobuy"
 import Contract from "../components/HomeSections/Contract"
 import Audits from "../components/HomeSections/Audits"
 import Faqs from "../components/HomeSections/Faqs"
+import Blogs from "../components/HomeSections/Blogs"
+import Footer from "../components/Footer"
 
 
 
 const Homepage = () => {
   return (
     <>
-      <Headroom>
+
+      <Headroom   >
       <Navbar />
       </Headroom>
+
       <Hero />
       <Parteners />
       <About />
@@ -33,6 +37,8 @@ const Homepage = () => {
       <Contract />
       <Audits />
       <Faqs />
+      <Blogs />
+      <Footer />
 
 
     </>
