@@ -8,23 +8,32 @@ import Ecosystem from "../components/HomeSections/Ecosystem"
 import Vglob from "../components/HomeSections/Vglob"
 import Roadmap from "../components/HomeSections/Roadmap"
 import Tokenomics from "../components/HomeSections/Tokenomics"
+import Howtobuy from "../components/HomeSections/Howtobuy"
+import Contract from "../components/HomeSections/Contract"
+import Audits from "../components/HomeSections/Audits"
+import Faqs from "../components/HomeSections/Faqs"
 
 
 
 const Homepage = () => {
   return (
     <>
-      {/* <Headroom> */}
+      <Headroom>
       <Navbar />
-      {/* </Headroom> */}
-      {/* <Hero /> */}
-      {/* <Parteners /> */}
+      </Headroom>
+      <Hero />
+      <Parteners />
       <About />
       <Exchanges />
       <Ecosystem />
       <Vglob />
       <Roadmap />
       <Tokenomics />
+      <Howtobuy />
+      <Contract />
+      <Audits />
+      <Faqs />
+
 
     </>
   )

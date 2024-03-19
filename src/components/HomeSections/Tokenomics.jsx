@@ -1,10 +1,11 @@
 
 import tokobg from "../../assets/Images/tokenomics.png"
+import toko from "../../assets/Images/tokendistribution.png"
 
 const Tokenomics = () => {
     return (
         <>
-            <div id="eco-main" className="flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
+            <div id="toko-main" className="flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
 
                 <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
                     <h1
@@ -17,8 +18,14 @@ const Tokenomics = () => {
                 </div>
 
                 <div>
-                    <div>
-                        <img src={tokobg} alt="" id="bgimg" />
+                    <div className=" relative object-cover flex justify-center items-center">
+                        <div>
+                            <img src={tokobg} alt="" id="bgimg" />
+                        </div>
+
+                        <div className=" absolute  object-contain w-[100%] h-[100%] flex justify-center items-center ">
+                            <img src={toko} alt="" className="  w-[90%] " id="bgimg" />
+                        </div>
                     </div>
                 </div>
             </div>
