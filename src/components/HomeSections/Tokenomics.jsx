@@ -1,6 +1,7 @@
 
 import tokobg from "../../assets/Images/tokenomics.png"
 import toko from "../../assets/Images/tokendistribution.png"
+import { motion } from "framer-motion"
 
 const Tokenomics = () => {
     return (
@@ -47,9 +48,18 @@ const Tokenomics = () => {
                             <img src={tokobg} alt="" id="bgimg" />
                         </div>
 
-                        <div className=" absolute  object-contain w-[100%] h-[100%] flex justify-center items-center ">
+                        <motion.div
+                            initial={{ scale: 0 }}
+                            transition={{
+                                duration: 1,
+                                ease: [0.6, 0.01, -0.05, 0.9],
+
+                            }}
+                            whileInView={{ scale: [0.5, 1, 0.9] }}
+
+                            className=" absolute right-[7px] top-[20px] object-contain w-[100%] h-[100%] flex justify-center items-center ">
                             <img src={toko} alt="" className="  w-[90%] " id="bgimg" />
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
 
