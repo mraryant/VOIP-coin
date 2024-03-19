@@ -1,21 +1,10 @@
 
-import { motion } from "framer-motion"
+ 
 import abt1 from "../../assets/Images/abt1.png"
 
 
 const About = () => {
-    const staggerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: { staggerChildren: 0.2, ease: "easeOut" },
-        },
-    };
-
-    const childVariants = {
-        hidden: { opacity: 0, x: 40 },
-        visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeInOut" } },
-    };
+    
     return (
         <>
             {/* bg-[url('/assets/aboutbg.svg')] */}
@@ -81,29 +70,27 @@ const About = () => {
                             </div>
                             {/* <p className='text-xl leading-tight'> IPCD, a century innovative institution, is a beacon of transformation in organizational dynamics, steadfastly partnering with organizations to elevate their people functions and champion better work and working lives.     </p> */}
 
-                            <motion.ul
-                                variants={staggerVariants}
-                                initial="hidden"
-                                whileInView="visible"
+                            <ul
+                                
 
 
                                 className='flex flex-col gap-[20px] w-[85%] tablet:w-[100%] text-[23px]  leading-tight'>
-                                <motion.li className=" font-extralight " variants={childVariants}>
+                                <li className=" font-extralight " >
                                     <span className="text-3xl font-medium "> Privacy : </span> Make secure calls to anywhere in the world anonymously and hassle free.
-                                </motion.li>
-                                <motion.li className="font-extralight  " variants={childVariants}>
+                                </li>
+                                <li className="font-extralight  " >
                                     <span className="text-3xl font-medium "> Benefits : </span> Call Routing, Call Termination, Call Forwarding, Call Conferencing, Direct Inward dialing also.
-                                </motion.li>
-                                <motion.li className="font-extralight  " variants={childVariants}>
+                                </li>
+                                <li className="font-extralight  " >
                                     <span className="text-3xl font-medium "> Accessibility : </span> Connect unlimited local and International with your love ones, Families or business clients using blockchain technology.
-                                </motion.li>
-                                <motion.li className="font-extralight  " variants={childVariants}>
+                                </li>
+                                <li className="font-extralight  " >
                                     <span className="text-3xl font-medium "> Security : </span> Enjoy end-end Encrypted calls while keeping identity secure with Voip Finance DeFi and Web3 systems.
-                                </motion.li>
-                                <motion.li className="font-extralight  " variants={childVariants}>
+                                </li>
+                                <li className="font-extralight  " >
                                     <span className="text-3xl font-medium ">Rewards :</span> Earn rewards and make calls globally. Use your rewards to make and receive calls seamlessly and save your spendings.
-                                </motion.li>
-                            </motion.ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
