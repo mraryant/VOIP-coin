@@ -30,7 +30,7 @@ const Footer = () => {
 
                             </div>
                         </div>
-                        <div className=" flex gap-[5vmax] tablet:justify-evenly tablet:flex-wrap z-10">
+                        <div className=" mt-16 mt- flex gap-[5vmax] tablet:justify-evenly tablet:flex-wrap z-10">
                             <div className=" flex flex-col tablet:items-center " >
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold   uppercase text-white">Resources</h2>
                                 <ul className="  text-gray-400 font-medium">
@@ -38,7 +38,7 @@ const Footer = () => {
                                         <a href="#" className="unline  hover:underline " >Flowbite</a>
                                     </li>
                                     <li className="  tablet:text-center  " >
-                                        <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                                        <a href="#" className="hover:underline">Tailwind CSS</a>
                                     </li>
                                 </ul>
                             </div>
@@ -46,10 +46,10 @@ const Footer = () => {
                                 <h2 className=" text-primary-gradient mb-6 text-sm font-semibold  uppercase text-white">Follow us</h2>
                                 <ul className="  text-gray-400 font-medium">
                                     <li className="mb-4 tablet:text-center">
-                                        <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                                        <a href="#" className="hover:underline ">Github</a>
                                     </li>
                                     <li className="  tablet:text-center  ">
-                                        <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                        <a href="#" className="hover:underline">Discord</a>
                                     </li>
                                 </ul>
                             </div>

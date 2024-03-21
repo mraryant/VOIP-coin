@@ -43,7 +43,7 @@ Step.propTypes = {
 const Roadmap = () => {
     return (
         <>
-            <div id="eco-main" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
+            <div id="Roadmap" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
 
                 <div className=" absolute left-0 top-[-20%]  phone:top-[-10%]   z-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width={1069} height={1371} viewBox="0 0 1069 1371" fill="none">

@@ -73,28 +73,28 @@ const Navbar = () => {
                         <ul className=" navcar  flex    flex-col p-4   md:py-1.5   mt-4 font-medium border border-[--primary-color]  md:rounded-[50px] rounded-lg   md:space-x-[3vmax] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   text-white tablet:bg-gray-900    ">
 
                             <li className='md:border-none border-b-[1px]  border-gradient '>
-                                <a href="#hero-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#e18dff] font-outfit   ">Home</div>
+                                <a href="#Hero">
+                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#e18dff] font-outfit   ">Home</div>
                                 </a>
                             </li>
                             {/* <li className='md:border-none border-b-[1px] border-gradient'>
                                 <a href="#about-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">About Us</div>
+                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">About Us</div>
                                 </a>
                             </li> */}
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <a href="#Usecase-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Use Case</div>
+                                <a href="#Ecosystem">
+                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Ecosystem</div>
                                 </a>
                             </li>
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <a href="#roadmap-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Roadmap</div>
+                                <a href="#Roadmap">
+                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Roadmap</div>
                                 </a>
                             </li>
                             <li className='md:border-none border-b-[1px] border-gradient '>
-                                <a href="#toko-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Tokenomics</div>
+                                <a href="#Tokenomics">
+                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Tokenomics</div>
                                 </a>
                             </li>
                         </ul>

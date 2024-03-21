@@ -20,7 +20,7 @@ const Hero = () => {
         <>
 
             <div
-                id="hero-main"
+                id="Hero"
                 className=" mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
             >
 

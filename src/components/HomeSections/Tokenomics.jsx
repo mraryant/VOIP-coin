@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const Tokenomics = () => {
     return (
         <>
-            <div id="toko-main" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
+            <div id="Tokenomics" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
 
                 <div className="absolute left-0 top-[-10%]  phone:top-[-10%] z-0" >
                     <svg xmlns="http://www.w3.org/2000/svg" width={1232} height={1130} viewBox="0 0 1232 1130" fill="none">
