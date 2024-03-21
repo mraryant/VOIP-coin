@@ -55,10 +55,10 @@ const Tokenomics = () => {
                                 ease: [0.6, 0.01, -0.05, 0.9],
 
                             }}
-                            whileInView={{ scale: [0.5, 1, 0.9] }}
+                            whileInView={{ scale: [0.5, 0.95] }}
 
                             className=" absolute right-[7px] top-[20px] object-contain w-[100%] h-[100%] flex justify-center items-center ">
-                            <img src={toko} alt="" className="  w-[90%] " id="bgimg" />
+                            <img src={toko} alt="" className="  w-[100%] " id="bgimg" />
                         </motion.div>
                     </div>
                 </div>
@@ -67,31 +67,31 @@ const Tokenomics = () => {
 
 
                     <div className="w-[400.51px] phone:max-w-[310px]  h-[87px] mx-4 my-3 ">
-                        <div className=" flex phone:max-w-[400px] justify-between  gap-5  p-6   bg-gradient-to-b from-indigo-500 to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
+                        <div className=" flex phone:max-w-[400px] justify-between  gap-5  p-6   bg-gradient-to-b from-[#353475] to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
                             <div className="   text-white text-2xl phone:text-xl font-medium font-['Outfit'] leading-[30px]">Token Name</div>
-                            <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">VOIP Finance</div>
+                            <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">Voip Finance</div>
                         </div>
                     </div>
                     <div className="w-[400.51px] phone:max-w-[310px] h-[87px] mx-4 my-3 ">
-                        <div className=" flex   justify-between gap-5  p-6   bg-gradient-to-b from-indigo-500 to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
+                        <div className=" flex   justify-between gap-5  p-6    bg-gradient-to-b from-[#353475] to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
                             <div className="   text-white text-2xl phone:text-xl font-medium font-['Outfit'] leading-[30px]">Symbol</div>
                             <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">VOIP</div>
                         </div>
                     </div>
                     <div className="w-[400.51px] phone:max-w-[310px] h-[87px] mx-4 my-3 ">
-                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-indigo-500 to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
+                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-[#353475] to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
                             <div className="   text-white text-2xl phone:text-xl font-medium font-['Outfit'] leading-[30px]">Decimal</div>
                             <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">18</div>
                         </div>
                     </div>
                     <div className="w-[400.51px] phone:max-w-[310px] h-[87px] mx-4 my-3 ">
-                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-indigo-500 to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
+                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-[#353475] to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
                             <div className="   text-white text-2xl phone:text-xl font-medium font-['Outfit'] leading-[30px]">Network</div>
                             <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">ERC20</div>
                         </div>
                     </div>
                     <div className="w-[400.51px] phone:max-w-[310px] h-[87px] mx-4 my-3 ">
-                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-indigo-500 to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
+                        <div className=" flex justify-between  gap-5  p-6   bg-gradient-to-b from-[#353475] to-gray-950 rounded-tl-2xl rounded-tr-2xl  border-toko " >
                             <div className="   text-white text-2xl phone:text-xl font-medium font-['Outfit'] leading-[30px]">Supply</div>
                             <div className="   text-white text-2xl phone:text-xl  font-medium font-['Outfit'] leading-[30px]">1B</div>
                         </div>

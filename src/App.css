@@ -108,8 +108,8 @@
 #hero-right-container {
   background: linear-gradient(
     204deg,
-    rgba(189, 48, 255, 0.477) 2.26%,
-    rgba(113, 64, 255, 0.66) 96.92%
+    rgba(189, 48, 255, 0.307) 2.26%,
+    rgba(112, 64, 255, 0.482) 96.92%
   );
   box-shadow: 0px 0px 90px 0px rgba(125, 0, 250, 0.5);
   backdrop-filter: blur(2px);

@@ -1,4 +1,9 @@
 
+import blog1 from "../../assets/Images/blog1.jpg"
+import blog2 from "../../assets/Images/blog2.jpg"
+import blog3 from "../../assets/Images/blog3.jpg"
+import blog4 from "../../assets/Images/blog4.jpg"
+import blog5 from "../../assets/Images/blog5.jpg"
 
 const Blogs = () => {
     return (
@@ -73,7 +78,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -91,7 +96,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog2} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -109,7 +114,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog3} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -126,7 +131,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog4} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -143,7 +148,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog5} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -160,7 +165,7 @@ const Blogs = () => {
 
                             <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src="https://via.placeholder.com/282x240" />
+                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
 
                                 <div className=" flex flex-col gap-5">
 
@@ -179,6 +184,9 @@ const Blogs = () => {
                 </div>
 
             </div>
+
+            {/* "https://via.placeholder.com/282x240" */}
+
         </>
     )
 }

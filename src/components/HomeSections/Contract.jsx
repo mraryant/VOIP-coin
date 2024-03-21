@@ -28,26 +28,26 @@ const Contract = () => {
         <>
 
 
-            <div id="contract1" className=" z-0  py-10 ">
+            <div id="contract1" className=" z-10  py-10 ">
 
 
-                <div id="contract" className=" flex  flex-col justify-center items-center gap-5 ">
+                <div id="contract" className=" flex z-10  flex-col justify-center items-center gap-5 ">
                     <motion.h5
                         initial={{ x: 0 }}
                         whileInView={{ x: [0, -10, 10, -10, 10, 0], transition: { duration: 0.5 }, }}
                         className=" text-[var(--prime-yellow)]  oxanium text-3xl">Contract Address
                     </motion.h5>
 
-                    <h3 className=" text-primary-gradient text-3xl tablet:text-[4vw] "  >{text}</h3>
+                    <h3 className=" text-primary-gradient text-3xl tablet:text-[4vw] z-10 "  >{text}</h3>
 
 
-                    <div id="contract-button" className="flex flex-wrap justify-center gap-7">
+                    <div id="contract-button" className="flex z-10 flex-wrap justify-center gap-7">
 
                         <motion.button
                             initial={{ y: 40 }}
                             transition={{ duration: 1 }}
                             whileInView={{ y: 0 }}
-                            className="btn "
+                            className="btn2 "
                             style={{ width: "230px" }}
                             onClick={handleCopy}
                         >
@@ -66,7 +66,7 @@ const Contract = () => {
                             initial={{ x: 40 }}
                             transition={{ duration: 1 }}
                             whileInView={{ x: 0 }}
-                            className="btn "
+                            className="btn2 "
                             style={{ width: "230px" }}
                             onClick={() =>
                                 window.open(

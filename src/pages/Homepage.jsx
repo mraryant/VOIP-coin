@@ -14,6 +14,7 @@ import Audits from "../components/HomeSections/Audits"
 import Faqs from "../components/HomeSections/Faqs"
 import Blogs from "../components/HomeSections/Blogs"
 import Footer from "../components/Footer"
+import Team from "../components/HomeSections/Team"
 
 
 
@@ -22,7 +23,7 @@ const Homepage = () => {
     <>
 
       <Headroom   >
-      <Navbar />
+        <Navbar />
       </Headroom>
 
       <Hero />
@@ -36,6 +37,7 @@ const Homepage = () => {
       <Howtobuy />
       <Contract />
       <Audits />
+      <Team />
       <Faqs />
       <Blogs />
       <Footer />

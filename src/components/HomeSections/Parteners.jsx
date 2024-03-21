@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 // import youtube from "../../assets/Images/Instagram.png"
 
-import b1 from "../../assets/brands/b1.png";
+// import b1 from "../../assets/brands/b1.png";
 import b2 from "../../assets/brands/b2.png";
 import b3 from "../../assets/brands/b3.png";
 import b4 from "../../assets/brands/b4.png";
@@ -25,38 +25,38 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Parteners = () => {
     const [imges, setimges] = useState([
-        b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12,
+        b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12,
     ]);
 
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 5, // Number of slides visible at a time
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000, // Autoplay speed in milliseconds
-        pauseOnHover: true, // Pause autoplay on hover
+    // const settings = {
+    //     dots: false,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 5, // Number of slides visible at a time
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 2000, // Autoplay speed in milliseconds
+    //     pauseOnHover: true, // Pause autoplay on hover
 
-        ltr: true,
+    //     ltr: true,
 
 
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                },
-            },
-        ],
-    };
+    //     responsive: [
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //             },
+    //         },
+    //         {
+    //             breakpoint: 480,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //             },
+    //         },
+    //     ],
+    // };
 
     const settings2 = {
         dots: false,
@@ -112,25 +112,7 @@ const Parteners = () => {
                 <h1 className=' text-5xl font-bold ' >Our <span className='text-primary-gradient'> Partner </span> </h1>
             </div>
 
-            <div className=' '>
 
-                <Slider {...settings}  >
-                    {
-                        imges.map((items, index) => {
-                            return (
-                                <div key={index} className='flex  justify-center items-center p-2  mx-auto   '>
-                                    <img
-                                        id='brandsimg'
-                                        src={items}
-                                        alt=""
-                                        className=" opacity-90 "
-                                    />
-                                </div>
-                            )
-                        })
-                    }
-                </Slider>
-            </div>
 
             <div className=' '>
                 <Slider {...settings2}  >
@@ -151,25 +133,7 @@ const Parteners = () => {
                 </Slider>
             </div>
 
-            {/* <div className='w-[90%] gap-[20px] flex flex-wrap justify-center'>
 
-                    {
-                        imges.map((items, index) => {
-                            return (
-                                <div key={index} className='flex  justify-center items-center p-2     '>
-                                    <img
-                                        id='brandsimg'
-                                        src={items}
-                                        alt=""
-                                        className=" opacity-90 "
-                                    />
-                                </div>
-                            )
-                        })
-                    }
-
-                </div> */}
-            {/* </div> */}
         </>
     )
 }

@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 
-const Step = ({ color, phase, heading, pera }) => {
+const Step = ({ color, phase, heading, pera, pera2 }) => {
     return (
         <>
             <div id="step-main" className=" z-10 flex gap-20 justify-center   p-5 tablet:flex-col tablet:items-center tablet:gap-10  " >
@@ -19,7 +19,10 @@ const Step = ({ color, phase, heading, pera }) => {
                 <div id="step-right " className="w-[50%] flex justify-center phone:tablet:w-[95%] tablet:w-[90%] ">
                     <div className="w-[90%]  flex gap-3 phone:w-[100%]  " >
                         <p className=" " >✧</p>
-                        <p className=" text-xl" dangerouslySetInnerHTML={{ __html: pera }}></p>
+                        <div className='flex flex-col gap-3'>
+                            <p className=" text-xl" dangerouslySetInnerHTML={{ __html: pera }}></p>
+                            <p className=" text-xl" dangerouslySetInnerHTML={{ __html: pera2 }}></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -32,7 +35,9 @@ Step.propTypes = {
     color: PropTypes.string.isRequired,
     phase: PropTypes.string.isRequired,
     heading: PropTypes.string.isRequired,
-    pera: PropTypes.string.isRequired
+    pera: PropTypes.string.isRequired,
+    pera2: PropTypes.string.isRequired
+
 };
 
 const Roadmap = () => {
@@ -97,58 +102,54 @@ const Roadmap = () => {
                     </p>
                 </div>
 
-                <Step
-                    color="bg-[--secondry1-color]"
-                    phase="PHASE 1"
-                    heading="Presale and Token Distribution"
-                    pera="Launch a presale to raise funds for further development and marketing effots
-                            <br />
-                            <br />
-                            Launch a presale to raise funds for further development and marketing efforts."
+                <div className='flex flex-col gap-8'>
 
-                />
-                <Step
-                    color="bg-[--secondry-color]"
-                    phase="PHASE 2"
-                    heading="Presale and Token Distribution"
-                    pera="Launch a presale to raise funds for further development and marketing effots
-                            <br />
-                            <br />
-                            Launch a presale to raise funds for further development and marketing efforts."
-                />
-                <Step
-                    color="bg-[--secondry1-color]"
-                    phase="PHASE 3"
-                    heading="Presale and Token Distribution"
-                    pera="Launch a presale to raise funds for further development and marketing effots
-                            <br />
-                            <br />
-                            Launch a presale to raise funds for further development and marketing efforts."
-                />
-                <Step
-                    color="bg-[--secondry-color]"
-                    phase="PHASE 4"
-                    heading="Presale and Token Distribution"
-                    pera="Launch a presale to raise funds for further development and marketing effots
-                            <br />
-                            <br />
-                            Launch a presale to raise funds for further development and marketing efforts."
-                />
 
-                <Step
-                    color="bg-[--secondry1-color]"
-                    phase="PHASE 5"
-                    heading="Presale and Token Distribution"
-                    pera="Launch a presale to raise funds for further development and marketing effots
-                            <br />
-                            <br />
-                            Launch a presale to raise funds for further development and marketing efforts."
-                />
+                    <Step
+                        color="bg-[--secondry1-color]"
+                        phase="PHASE 1"
+                        heading="Presale and Token Distribution"
+                        pera="Launch a presale to raise funds for further development and marketing effots"
+                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                    />
+                    <Step
+                        color="bg-[--secondry-color]"
+                        phase="PHASE 2"
+                        heading="Presale and Token Distribution"
+                        pera="Launch a presale to raise funds for further development and marketing effots"
+                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+
+                    />
+                    <Step
+                        color="bg-[--secondry1-color]"
+                        phase="PHASE 3"
+                        heading="Presale and Token Distribution"
+                        pera="Launch a presale to raise funds for further development and marketing effots"
+                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+
+                    />
+                    <Step
+                        color="bg-[--secondry-color]"
+                        phase="PHASE 4"
+                        heading="Presale and Token Distribution"
+                        pera="Launch a presale to raise funds for further development and marketing effots"
+                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+
+                    />
+
+                    <Step
+                        color="bg-[--secondry1-color]"
+                        phase="PHASE 5"
+                        heading="Presale and Token Distribution"
+                        pera="Launch a presale to raise funds for further development and marketing effots"
+                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+
+                    />
 
 
 
 
-
+                </div>
             </div>
 
         </>

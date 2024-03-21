@@ -13,14 +13,10 @@ const Faqs = () => {
             answer: (
                 <div>
                     <p className="mb-2 text-gray-500 ">
-                        Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nihil, laborum quod repellendus esse accusamus iste molestias! Repudiandae consectetur aspernatur adipisci non atque, nostrum odit eveniet. Fugiat atque fugit corporis.
                     </p>
                     <p className="text-gray-500 ">
-                        Check out this guide to learn how to{' '}
-                        <a href="/docs/getting-started/introduction/" className="text-blue-600 hover:underline">
-                            get started
-                        </a>{' '}
-                        and start developing websites even faster with components on top of Tailwind CSS.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam voluptatum natus. Dolorem soluta maxime expedita et! Debitis, eaque nesciunt!
                     </p>
                 </div>
             ),
@@ -30,14 +26,10 @@ const Faqs = () => {
             answer: (
                 <div>
                     <p className="mb-2 text-gray-500 ">
-                        Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et illum possimus laborum natus consequatur! Aperiam exercitationem provident facere reiciendis.
                     </p>
                     <p className="text-gray-500 ">
-                        Check out the{' '}
-                        <a href="https://flowbite.com/figma/" className="text-blue-600  hover:underline">
-                            Figma design system
-                        </a>{' '}
-                        based on the utility classes from Tailwind CSS and components from Flowbite.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repellendus minima eius pariatur eum similique beatae impedit dolorum fuga nisi.
                     </p>
                 </div>
             ),
@@ -47,21 +39,21 @@ const Faqs = () => {
             answer: (
                 <div>
                     <p className="mb-2 text-gray-500 ">
-                        The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid iure dicta reiciendis doloribus error et dolores soluta quod quos.
                     </p>
                     <p className="mb-2 text-gray-500 ">
-                        However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id architecto, est a vel et itaque sapiente quidem quae repudiandae illum nostrum, voluptatem perspiciatis labore, excepturi obcaecati hic. Numquam, ut?
                     </p>
                     <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
                     <ul className="ps-5 text-gray-500 list-disc ">
                         <li>
                             <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
-                                Flowbite Pro
+                                Lorem ipsum dolor sit amet.
                             </a>
                         </li>
                         <li>
                             <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Tailwind UI
+                                Lorem, ipsum.
                             </a>
                         </li>
                     </ul>
@@ -73,21 +65,21 @@ const Faqs = () => {
             answer: (
                 <div>
                     <p className="mb-2 text-gray-500 ">
-                        The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum possimus dicta doloribus saepe velit cum aliquid, asperiores debitis blanditiis modi non incidunt deleniti aliquam officiis quae ut ipsum nemo?
                     </p>
                     <p className="mb-2 text-gray-500 ">
-                        However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos recusandae saepe dolorem consectetur minus quo mollitia assumenda neque explicabo.
                     </p>
                     <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
                     <ul className="ps-5 text-gray-500 list-disc ">
                         <li>
                             <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
-                                Flowbite Pro
+                                Lorem ipsum dolor sit amet.
                             </a>
                         </li>
                         <li>
                             <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Tailwind UI
+                                Lorem, ipsum dolor.
                             </a>
                         </li>
                     </ul>
@@ -99,21 +91,21 @@ const Faqs = () => {
             answer: (
                 <div>
                     <p className="mb-2 text-gray-500 ">
-                        The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum consequatur labore, quas vitae nisi iste eligendi non beatae corrupti sit facere a temporibus deserunt aut velit natus ipsum ipsa!
                     </p>
                     <p className="mb-2 text-gray-500 ">
-                        However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam quae veniam consequuntur. Eveniet doloribus temporibus fugiat iure cum nesciunt repellendus pariatur soluta maxime fuga, magni praesentium harum non officia?
                     </p>
                     <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
                     <ul className="ps-5 text-gray-500 list-disc ">
                         <li>
                             <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
-                                Flowbite Pro
+                                Lorem ipsum dolor sit amet.
                             </a>
                         </li>
                         <li>
                             <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Tailwind UI
+                                Lorem, ipsum dolor.
                             </a>
                         </li>
                     </ul>
@@ -127,7 +119,8 @@ const Faqs = () => {
 
         <>
             <div className=' relative ' >
-                <div className='absolute right-0 top-[-20%]  phone:top-[-10%]   z-0' >
+
+                <div id="blob" className=" absolute right-0 top-[-50%]  phone:top-[-10%]   z-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width={777} height={1240} viewBox="0 0 777 1240" fill="none">
                         <g filter="url(#filter0_bdf_1020_137)">
                             <path d="M974.686 561.5C974.686 750.381 765.567 1003.91 576.686 1003.91C298.685 1003.91 227.186 1032.79 227.186 843.909C227.186 655.027 214.304 227 403.186 227C592.067 227 974.686 372.619 974.686 561.5Z" fill="url(#paint0_linear_1020_137)" fillOpacity="0.2" shapeRendering="crispEdges" />
@@ -156,55 +149,58 @@ const Faqs = () => {
                 </div>
 
 
-                <div className='flex z-10 flex-col gap-10 py-20 '>
-                    <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
-                        <h1
-                            className='text-5xl  font-bold tablet:text-4xl '>
-                            Frequently Asked
-                            <span className="text-primary-gradient" > Question</span>
+                <div className='   ' >
 
-                        </h1>
+                    <div className='flex    flex-col gap-10 py-20 '>
+                        <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
+                            <h1
+                                className='text-5xl  font-bold tablet:text-4xl '>
+                                Frequently Asked
+                                <span className="text-primary-gradient" > Question</span>
 
-                    </div>
+                            </h1>
 
-                    <div className=' flex justify-center'>
+                        </div>
+
+                        <div className=' z-20 flex justify-center'>
 
 
-                        <div className='w-[70%] border   tablet:w-[90%] rounded-t-xl ' id="accordion-collapse" data-accordion="collapse">
-                            {accordionItems.map((item, index) => (
-                                <div key={index}>
-                                    <h2 id={`accordion-collapse-heading-${index + 1}`}>
-                                        <button
-                                            type="button"
-                                            className={`flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200  focus:ring-2 focus:ring-gray-500   focus:bg-transparent    gap-3 ${activeAccordion === index ? 'active' : ''
-                                                }`}
-                                            onClick={() => toggleAccordion(index)}
-                                            aria-expanded={activeAccordion === index ? 'true' : 'false'}
-                                            aria-controls={`accordion-collapse-body-${index + 1}`}
-                                        >
-                                            <span className=' font-medium text-xl text-white text-left' >{item.question}</span>
-                                            <svg
-                                                data-accordion-icon
-                                                className="w-3 h-3 rotate-180 shrink-0"
-                                                aria-hidden="true"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                fill="none"
-                                                viewBox="0 0 10 6"
+                            <div className='w-[70%] border   tablet:w-[90%] rounded-t-xl ' id="accordion-collapse" data-accordion="collapse">
+                                {accordionItems.map((item, index) => (
+                                    <div key={index}>
+                                        <h2 id={`accordion-collapse-heading-${index + 1}`}>
+                                            <button
+                                                type="button"
+                                                className={`flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200  focus:ring-2 focus:ring-gray-500   focus:bg-transparent    gap-3 ${activeAccordion === index ? 'active' : ''
+                                                    }`}
+                                                onClick={() => toggleAccordion(index)}
+                                                aria-expanded={activeAccordion === index ? 'true' : 'false'}
+                                                aria-controls={`accordion-collapse-body-${index + 1}`}
                                             >
-                                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5" />
-                                            </svg>
-                                        </button>
-                                    </h2>
-                                    <div
-                                        id={`accordion-collapse-body-${index + 1}`}
-                                        className={`p-5 border border-b-0 border-gray-200  ${activeAccordion === index ? 'block' : 'hidden'
-                                            }`}
-                                        aria-labelledby={`accordion-collapse-heading-${index + 1}`}
-                                    >
-                                        {item.answer}
+                                                <span className=' font-medium text-xl text-white text-left' >{item.question}</span>
+                                                <svg
+                                                    data-accordion-icon
+                                                    className="w-3 h-3 rotate-180 shrink-0"
+                                                    aria-hidden="true"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    fill="none"
+                                                    viewBox="0 0 10 6"
+                                                >
+                                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5" />
+                                                </svg>
+                                            </button>
+                                        </h2>
+                                        <div
+                                            id={`accordion-collapse-body-${index + 1}`}
+                                            className={`p-5 border border-b-0 border-gray-200  ${activeAccordion === index ? 'block' : 'hidden'
+                                                }`}
+                                            aria-labelledby={`accordion-collapse-heading-${index + 1}`}
+                                        >
+                                            {item.answer}
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

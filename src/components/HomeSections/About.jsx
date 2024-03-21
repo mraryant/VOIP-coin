@@ -1,10 +1,10 @@
 
- 
+
 import abt1 from "../../assets/Images/abt1.png"
 
 
 const About = () => {
-    
+
     return (
         <>
             {/* bg-[url('/assets/aboutbg.svg')] */}
@@ -51,13 +51,15 @@ const About = () => {
 
 
 
-                    <div id="about-left" className=' flex justify-center items-center h-[90%] w-[40%] tablet:w-[80%] phone:w-[90%]'>
-                        <img
-                            src={abt1}
-                            width={600}
-                            height={600}
-                            alt="Picture "
-                        />
+                    <div id="about-left" className=' object-cover flex justify-center items-center h-[90%] w-[40%] tablet:w-[80%] phone:w-[90%]'>
+                        <div className=" w-[70%]   h-[80%] " >
+
+                            <img
+                                src={abt1}
+                                className="rounded-[20px] border "
+                                alt="Picture "
+                            />
+                        </div>
                     </div>
 
                     <div id="about-right" className=' h-[100%] w-[60%] flex flex-col justify-center items-center    gap-[20px]  tablet:w-[80%]'>
@@ -71,7 +73,7 @@ const About = () => {
                             {/* <p className='text-xl leading-tight'> IPCD, a century innovative institution, is a beacon of transformation in organizational dynamics, steadfastly partnering with organizations to elevate their people functions and champion better work and working lives.     </p> */}
 
                             <ul
-                                
+
 
 
                                 className='flex flex-col gap-[20px] w-[85%] tablet:w-[100%] text-[23px]  leading-tight'>

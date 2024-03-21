@@ -5,7 +5,7 @@ import vglob from "../../assets/Images/vglob.png"
 const Vglob = () => {
     return (
         <>
-            <div id="listing" className=' relative min-h-[100vh] w-[100vw] px-10 py-20   flex flex-col gap-20'>
+            <div id="listing" className=' relative min-h-[30vh] w-[100vw] px-10 py-10   flex flex-col gap-20'>
 
                 <div className=" absolute left-0 top-[-60%]    z-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width={877} height={1275} viewBox="0 0 877 1275" fill="none">

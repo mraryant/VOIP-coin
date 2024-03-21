@@ -7,7 +7,7 @@ import htb4 from "../../assets/Images/abt4.svg"
 const Howtobuy = () => {
     return (
         <>
-            <div id="htb-main" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat items-center justify-center my-5">
+            <div id="htb-main" className=" relative flex gap-20 flex-col   min-h-[70vh] my-10 bg-no-repeat items-center justify-center ">
 
                 <div id="blob" className=" absolute left-0 top-[-50%]  phone:top-[-10%]   z-0">
 
@@ -34,39 +34,40 @@ const Howtobuy = () => {
 
                 </div>
 
-                <div id="blob" className=" absolute left-10 top-[0%]  phone:top-[-10%] " >
-                    <svg xmlns="http://www.w3.org/2000/svg" width={951} height={780} viewBox="0 0 951 780" fill="none">
-                        <g filter="url(#filter0_bdd_1035_157)">
-                            <path d="M361.053 419.454C329.02 487.584 250.516 570.369 182.735 538.5C82.9746 491.595 62.7145 444.707 115.385 447.932C284.505 442.916 184.453 197.126 252.233 228.995C320.014 260.864 393.086 351.324 361.053 419.454Z" fill="url(#paint0_linear_1035_157)" fillOpacity="0.46" shapeRendering="crispEdges" />
+                <div id="blob" className=" absolute left-10 top-[-10%]  phone:top-[-10%] " >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={987} height={808} viewBox="0 0 987 808" fill="none">
+                        <g filter="url(#filter0_bdd_1413_156)">
+                            <path d="M399.147 463.313C367.114 531.442 271.745 606.298 168.7 557.849C17.0352 486.539 49.0941 450.358 52.594 433.858C56.094 417.358 102.759 184.663 205.805 233.113C308.85 281.563 431.18 395.183 399.147 463.313Z" fill="url(#paint0_linear_1413_156)" fillOpacity="0.31" shapeRendering="crispEdges" />
                         </g>
                         <defs>
-                            <filter id="filter0_bdd_1035_157" x="-139.142" y="0.244781" width="1089.86" height="779.195" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <filter id="filter0_bdd_1413_156" x="-178.883" y="0.589752" width="1165.13" height="806.618" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                                 <feFlood floodOpacity={0} result="BackgroundImageFix" />
                                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
-                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1035_157" />
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1413_156" />
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                 <feOffset dy={4} />
                                 <feGaussianBlur stdDeviation="113.15" />
                                 <feComposite in2="hardAlpha" operator="out" />
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                <feBlend mode="normal" in2="effect1_backgroundBlur_1035_157" result="effect2_dropShadow_1035_157" />
+                                <feBlend mode="normal" in2="effect1_backgroundBlur_1413_156" result="effect2_dropShadow_1413_156" />
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                 <feOffset dx={352} dy={4} />
                                 <feGaussianBlur stdDeviation="114.95" />
                                 <feComposite in2="hardAlpha" operator="out" />
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                <feBlend mode="normal" in2="effect2_dropShadow_1035_157" result="effect3_dropShadow_1035_157" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_1035_157" result="shape" />
+                                <feBlend mode="normal" in2="effect2_dropShadow_1413_156" result="effect3_dropShadow_1413_156" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_1413_156" result="shape" />
                             </filter>
-                            <linearGradient id="paint0_linear_1035_157" x1="128.185" y1="465.481" x2="341.956" y2="351.843" gradientUnits="userSpaceOnUse">
+                            <linearGradient id="paint0_linear_1413_156" x1="76.2781" y1="467.023" x2="288.326" y2="297.76" gradientUnits="userSpaceOnUse">
                                 <stop stopColor="#7A98FF" stopOpacity="0.51" />
                                 <stop offset={1} stopColor="#E045FF" />
                             </linearGradient>
                         </defs>
                     </svg>
+
                 </div>
 
-                <div id="blob" className=" absolute right-0 top-[-20%]  phone:top-[-10%] " >
+                <div id="blob" className=" absolute right-0 top-[-30%]   tablet:top-[50%] tablet:left-0 " >
                     <svg xmlns="http://www.w3.org/2000/svg" width={728} height={917} viewBox="0 0 728 917" fill="none">
                         <g filter="url(#filter0_bdd_1035_158)">
                             <path d="M577.616 595.108C474.263 596.159 230.825 749.751 229.779 646.888C228.239 495.491 207.25 320.138 310.602 319.086C416.111 109.451 648.093 308.637 649.14 411.5C650.186 514.363 680.969 594.056 577.616 595.108Z" fill="url(#paint0_linear_1035_158)" fillOpacity="0.46" shapeRendering="crispEdges" />

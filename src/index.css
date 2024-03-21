@@ -5,7 +5,7 @@
 :root {
   --primary-gradient: linear-gradient(90deg, #e18dff 0%, #3d73ff 96.4%);
   --primary-color: #e18dff;
-  --secondry1-color: #ae3dff;
+  --secondry1-color: #ab53ea;
   --secondry-color: #5943e1;
 }
 * {
@@ -48,6 +48,24 @@ body {
 .navcar {
   position: relative;
 }
+
+.btn2 {
+  display: flex;
+  font-weight: bold;
+  min-width: 123px;
+  height: fit-content;
+  font-size: 16px;
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: linear-gradient(90deg, #a42fe7 0%, #6421e6 100%);
+}
+.btn2:hover {
+  scale: 1.08;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 767px) {
   .navcar::before {
     content: ""; /* Ensures the pseudo-element is generated */

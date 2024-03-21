@@ -1,4 +1,8 @@
 import logo from "../../assets/voip_logo (1)/voip_logo.png";
+import eth from "../../assets/Images/eth.png";
+import usdt from "../../assets/Images/usdt.png";
+import bnb from "../../assets/Images/bnb.png";
+
 
 
 import youtube from "../../assets/Images/YouTube.png"
@@ -14,7 +18,7 @@ const Hero = () => {
 
     return (
         <>
-            
+
             <div
                 id="hero-main"
                 className=" mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
@@ -79,24 +83,24 @@ const Hero = () => {
                                 <a href="   " target="blank">
                                     <button
                                         type="button"
-                                        className=" font-outfit btn text-white   font-medium   text-sm       "
+                                        className=" font-outfit btn2 text-white   font-medium   text-sm       "
                                     >
-                                        Buy Token
+                                        White Paper
                                     </button>
                                 </a>
                                 <button
                                     // onClick={openPDF}
                                     type="button"
-                                    className=" font-outfit btn text-white   font-medium   text-sm       "
+                                    className=" font-outfit btn2 text-white   font-medium   text-sm       "
                                 >
-                                    White Paper
+                                    KYC
                                 </button>
                                 <a
                                     href="#contract1"
                                     type="button"
-                                    className=" font-outfit btn text-white   font-medium   text-sm  "
+                                    className=" font-outfit btn2 text-white   font-medium   text-sm  "
                                 >
-                                    Contract
+                                    Audit
                                 </a>
                             </div>
 
@@ -105,19 +109,19 @@ const Hero = () => {
                     <div className="flex flex-col gap-5 desktop:items-center ">
                         <h3 className="text-xl phone:text-center ">Audited & KYC | 100% Secure & Verified</h3>
                         <div id="shocial-media" className="flex gap-4 items-center ">
-                            <a href="">
+                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
                                 <img src={youtube} width={40} height={40} alt="" />
                             </a>
-                            <a href="">
+                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
                                 <img src={Twitter} width={40} height={40} alt="" />
                             </a>
-                            <a href="">
+                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
                                 <img src={Telegram} width={40} height={40} alt="" />
                             </a>
-                            <a href="">
+                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
                                 <img src={Instagram} width={40} height={40} alt="" />
                             </a>
-                            <a href="">
+                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
                                 <img src={Medium} width={40} height={40} alt="" />
                             </a>
                         </div>
@@ -148,8 +152,8 @@ const Hero = () => {
                             id="hero-rc-top "
                             className="w-[100%] z-10  flex flex-col justify-center items-center gap-6 "
                         >
-                            <h2 className="font-outfit   text-center text-[3vmax] w-[90%] px-4 desktop:text-[40px] max-[400px]:text-[32px] ">
-                                VOIP Finance
+                            <h2 className="font-outfit font-bold  text-center text-[3vmax] w-[90%] px-4 desktop:text-[40px] max-[400px]:text-[32px] ">
+                                Voip Finance
                             </h2>
 
                             <div className="reletive flex left-0 w-[100%] justify-center items-center p-3  ">
@@ -163,7 +167,7 @@ const Hero = () => {
                             <a href="#" target="blank">
                                 <button
                                     type="button"
-                                    className=" font-outfit btn text-white   font-medium    text-sm  w-fit    "
+                                    className=" font-outfit btn2 text-white   font-medium    text-sm  w-fit    "
                                 >
                                     Connect Wallet
                                 </button>
@@ -191,7 +195,7 @@ const Hero = () => {
 
                                 <div className=" flex gap-5 flex-wrap  justify-center  ">
                                     <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
-                                        <img src={logo} width={25} height={25} alt="" />
+                                        <img src={eth} width={15} height={25} alt="" />
                                         <button
                                             type="button"
                                             className=" font-outfit  text-black   font-bold   text-sm ">
@@ -199,19 +203,19 @@ const Hero = () => {
                                         </button>
                                     </div>
                                     <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
-                                        <img src={logo} width={25} height={25} alt="" />
+                                        <img src={usdt} width={25} height={25} alt="" />
                                         <button
                                             type="button"
                                             className=" font-outfit  text-black   font-bold   text-sm      ">
-                                            ETH
+                                            USDT
                                         </button>
                                     </div>
                                     <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
-                                        <img src={logo} width={25} height={25} alt="" />
+                                        <img src={bnb} width={25} height={25} alt="" />
                                         <button
                                             type="button"
                                             className=" font-outfit  text-black   font-bold   text-sm      ">
-                                            ETH
+                                            BNB
                                         </button>
                                     </div>
                                 </div>
@@ -223,7 +227,7 @@ const Hero = () => {
                                     <h3>Buy with</h3>
                                     <div className="relative  w-full">
                                         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                                            <img src={logo} width={20} height={20} alt="" />
+                                            <img src={usdt} width={20} height={20} alt="" />
                                         </div>
                                         <input type="text" id="Amount" className="bg-white border border-gray-300 text-lg text-gray-900   rounded-lg  block w-full ps-10 p-2.5  "
                                             placeholder="Enter Amount"
@@ -251,7 +255,7 @@ const Hero = () => {
                                 <a href="#" target="blank">
                                     <button
                                         type="button"
-                                        className=" font-outfit btn text-white   font-medium   text-sm     "
+                                        className=" btn2 font-outfit  text-white   font-medium   text-sm     "
                                     >
                                         Approve
                                     </button>
@@ -259,7 +263,11 @@ const Hero = () => {
 
                             </div>
 
-                            How to Buy VOIP Coins
+                            <div className=" flex gap-2  hover:scale-[1.1] transform-scale duration-300  "    >
+                                <img src={youtube} alt="" />
+                                <p> How to Buy VOIP Coins</p>
+
+                            </div>
                         </div>
 
 
