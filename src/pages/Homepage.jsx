@@ -26,14 +26,14 @@ const Homepage = () => {
         <Navbar />
       </Headroom>
 
-      {/* <Hero /> */}
-      {/* <Parteners /> */}
-      {/* <About /> */}
-      {/* <Exchanges /> */}
-      {/* <Ecosystem /> */}
-      {/* <Vglob /> */}
-      {/* <Roadmap /> */}
-      {/* <Tokenomics /> */}
+      <Hero />
+      <Parteners />
+      <About />
+      <Exchanges />
+      <Ecosystem />
+      <Vglob />
+      <Roadmap />
+      <Tokenomics />
       <Howtobuy />
       <Contract />
       <Audits />
