@@ -217,7 +217,7 @@ const Hero = () => {
                                         <button
                                             type="button"
                                             className=" font-outfit  text-black   font-bold   text-sm      ">
-                                            BNB
+                                            CARD
                                         </button>
                                     </div>
                                 </div>
