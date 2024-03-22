@@ -52,14 +52,14 @@ body {
 .btn2 {
   display: flex;
   font-weight: bold;
-  min-width: 123px;
+  min-width: 120px;
   height: fit-content;
   font-size: 16px;
-  padding: 10px 10px;
+  padding: 10px 25px;
   justify-content: center;
   align-items: center;
   border-radius: 9px;
-  background: linear-gradient(90deg, #a42fe7 0%, #6421e6 100%);
+  background: linear-gradient(90deg, #af4be9 0%, #6626e8 100%);
 }
 .btn2:hover {
   scale: 1.08;

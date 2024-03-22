@@ -21,17 +21,17 @@ const Hero = () => {
 
             <div
                 id="Hero"
-                className=" mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
+                className=" overflow-x-hidden mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
             >
 
 
-                <div id="blob" className=" absolute left-0 top-[-10%]  z-0 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1246" height="1010" viewBox="0 0 1246 1010" fill="none">
+                <div id="blob" className=" min-w-[100%]  h-[100vh]   absolute left-0 top-[-10%]   tablet:min-w-[150%] tablet:top-[-5%] phone:tablet:top-[-0%] phone:tablet:min-w-[200%]  z-0 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} viewBox="0 0 1246 1010" fill="none">
                         <g filter="url(#filter0_bdf_1020_171)">
                             <path d="M-63.1577 238.455C13.7903 93.0208 142.965 102.611 263.676 166.478C384.388 230.346 681.873 305.569 604.925 451.003C874.254 658.547 128.005 825.459 7.29294 761.592C-113.419 697.724 -140.106 383.889 -63.1577 238.455Z" fill="#551FE5" fillOpacity="0.3" shapeRendering="crispEdges" />
                         </g>
                         <defs>
-                            <filter id="filter0_bdf_1020_171" x="-332.812" y="-104.109" width="1577.82" height="1113.41" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <filter id="filter0_bdf_1020_171" x="-332.812" y="-104.109" width="2077.82" height="2013.41" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                                 <feFlood floodOpacity="0" result="BackgroundImageFix" />
                                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
                                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_171" />
@@ -55,17 +55,17 @@ const Hero = () => {
                 >
                     <div id="hero-left-top" className="  flex flex-col gap-[3vmax]">
 
-                        <h1 className=" text-[50px] relative font-outfit leading-tight  desktop:text-center phone:text-[35px]    ">
+                        <h1 className=" text-[50px] font-bold relative font-outfit leading-tight  desktop:text-center phone:text-[35px]    ">
 
                             Revolutionizing the <br />
-                            <span className=" text-primary-gradient">
+                            <span className=" phone:text-[27px] text-primary-gradient">
                                 Voice Over Internet Protocol <br />
                             </span>
 
                             through blockchain technology
                         </h1>
 
-                        <p className=" flex leading-tight text-gray-200 text-[18px] w-[80%] tracking-[0.35px] desktop:w-[90%] desktop:text-center desktop:m-auto max-[550px]:w-[100%] ">
+                        <p className=" flex font-light leading-tight text-gray-200 text-[18px] w-[80%] tracking-[0.35px] desktop:w-[90%] desktop:text-center desktop:m-auto max-[550px]:w-[100%] ">
                             Our platform is user-friendly, secure, and designed to provide you with the tools and resources you need to make informed trades and maximize your profits.. Our platform is user-friendly, secure, and designed to
 
                         </p>
@@ -144,7 +144,7 @@ const Hero = () => {
                     >
                         <div className="absolute inset-0 flex items-center justify-center   opacity-50 "
                         >
-                            <img className="z-0 w-[80%] blur-sm " src={logo} alt="" />
+                            <img className="z-0 w-[80%] opacity-40 blur-sm " src={logo} alt="" />
                         </div>
 
 
@@ -164,10 +164,10 @@ const Hero = () => {
                                 </p>
                             </div>
 
-                            <a href="#" target="blank">
+                            <a href="#" target="blank" className=" px-5" >
                                 <button
                                     type="button"
-                                    className=" font-outfit btn2 text-white   font-medium    text-sm  w-fit    "
+                                    className="   font-outfit btn2 text-white   font-medium    text-sm  w-fit px-5    "
                                 >
                                     Connect Wallet
                                 </button>

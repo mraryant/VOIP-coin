@@ -6,26 +6,26 @@ import { motion } from "framer-motion"
 const Tokenomics = () => {
     return (
         <>
-            <div id="Tokenomics" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
+            <div id="Tokenomics" className=" overflow-x-hidden relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
 
-                <div className="absolute left-0 top-[-10%]  phone:top-[-10%] z-0" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width={1232} height={1130} viewBox="0 0 1232 1130" fill="none">
-                        <g filter="url(#filter0_bdf_1020_136)">
-                            <path d="M650 577.095C650 709.48 365.697 896 237.418 896C109.14 896 -130 848.957 -130 716.572C-130 584.187 9.64522 227 137.923 227C266.202 227 650 444.71 650 577.095Z" fill="#551FE5" fillOpacity="0.35" shapeRendering="crispEdges" />
+                <div className=" w-[100%] h-[100%] absolute left-[-30%] top-[-10%]  tablet:w-[150%]    z-0" >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="  w-[100%] h-[100%] " viewBox="0 0 1440 1627" fill="none">
+                        <g filter="url(#filter0_bdf_1020_146)">
+                            <path d="M1062.35 828.378C1063.2 992.04 742.412 1215.63 586.143 1216.43C429.874 1217.24 306.85 964.752 306.005 801.089C305.159 637.427 619.728 411.274 775.998 410.467C932.267 409.661 1061.51 664.715 1062.35 828.378Z" fill="#6721E6" fillOpacity="0.6" shapeRendering="crispEdges" />
                         </g>
                         <defs>
-                            <filter id="filter0_bdf_1020_136" x="-356.3" y="0.699997" width="1588.2" height="1129.2" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <filter id="filter0_bdf_1020_146" x="-103.797" y="0.665588" width="1748.05" height="1625.57" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                                 <feFlood floodOpacity={0} result="BackgroundImageFix" />
-                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
-                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_136" />
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="45.7" />
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_146" />
                                 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                 <feOffset dx={352} dy={4} />
                                 <feGaussianBlur stdDeviation="114.95" />
                                 <feComposite in2="hardAlpha" operator="out" />
                                 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                <feBlend mode="normal" in2="effect1_backgroundBlur_1020_136" result="effect2_dropShadow_1020_136" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1020_136" result="shape" />
-                                <feGaussianBlur stdDeviation="113.15" result="effect3_foregroundBlur_1020_136" />
+                                <feBlend mode="normal" in2="effect1_backgroundBlur_1020_146" result="effect2_dropShadow_1020_146" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1020_146" result="shape" />
+                                <feGaussianBlur stdDeviation="204.9" result="effect3_foregroundBlur_1020_146" />
                             </filter>
                         </defs>
                     </svg>
@@ -57,7 +57,7 @@ const Tokenomics = () => {
                             }}
                             whileInView={{ scale: [0.5, 0.95] }}
 
-                            className=" absolute right-[7px] top-[20px] object-contain w-[100%] h-[100%] flex justify-center items-center ">
+                            className=" absolute   top-[17px] object-contain w-[100%] h-[100%] flex justify-center items-center ">
                             <img src={toko} alt="" className="  w-[100%] " id="bgimg" />
                         </motion.div>
                     </div>

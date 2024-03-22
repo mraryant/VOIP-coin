@@ -9,9 +9,9 @@ const Howtobuy = () => {
         <>
             <div id="htb-main" className=" relative flex gap-20 flex-col   min-h-[70vh] my-10 bg-no-repeat items-center justify-center ">
 
-                <div id="blob" className=" absolute left-0 top-[-50%]  phone:top-[-10%]   z-0">
+                <div id="blob" className=" max-w-[921px] absolute left-0 top-[-50%]  phone:top-[-40%]   z-0">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width={921} height={817} viewBox="0 0 921 817" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={817} viewBox="0 0 921 817" fill="none">
                         <g filter="url(#filter0_bdf_1020_135)">
                             <path d="M339 413.299C339 483.746 187.736 583 119.485 583C51.2349 583 -76 557.967 -76 487.52C-76 417.073 -1.70158 227 66.549 227C134.8 227 339 342.851 339 413.299Z" fill="#551FE5" fillOpacity="0.55" shapeRendering="crispEdges" />
                         </g>
@@ -34,8 +34,8 @@ const Howtobuy = () => {
 
                 </div>
 
-                <div id="blob" className=" absolute left-10 top-[-10%]  phone:top-[-10%] " >
-                    <svg xmlns="http://www.w3.org/2000/svg" width={987} height={808} viewBox="0 0 987 808" fill="none">
+                <div id="blob" className=" max-w-[1000px] absolute left-10 top-[-10%]  phone:top-[-10%] " >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={808} viewBox="0 0 987 808" fill="none">
                         <g filter="url(#filter0_bdd_1413_156)">
                             <path d="M399.147 463.313C367.114 531.442 271.745 606.298 168.7 557.849C17.0352 486.539 49.0941 450.358 52.594 433.858C56.094 417.358 102.759 184.663 205.805 233.113C308.85 281.563 431.18 395.183 399.147 463.313Z" fill="url(#paint0_linear_1413_156)" fillOpacity="0.31" shapeRendering="crispEdges" />
                         </g>
@@ -67,8 +67,9 @@ const Howtobuy = () => {
 
                 </div>
 
-                <div id="blob" className=" absolute right-0 top-[-30%]   tablet:top-[50%] tablet:left-0 " >
-                    <svg xmlns="http://www.w3.org/2000/svg" width={728} height={917} viewBox="0 0 728 917" fill="none">
+                <div id="blob" className=" max-w-[800px] absolute right-0 top-[-30%]   tablet:top-[30%] tablet:left-0 " >
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={917} viewBox="0 0 728 917" fill="none">
                         <g filter="url(#filter0_bdd_1035_158)">
                             <path d="M577.616 595.108C474.263 596.159 230.825 749.751 229.779 646.888C228.239 495.491 207.25 320.138 310.602 319.086C416.111 109.451 648.093 308.637 649.14 411.5C650.186 514.363 680.969 594.056 577.616 595.108Z" fill="url(#paint0_linear_1035_158)" fillOpacity="0.46" shapeRendering="crispEdges" />
                         </g>
@@ -109,7 +110,7 @@ const Howtobuy = () => {
                 </div>
 
                 <div className="flex z-10 gap-10 flex-wrap w-[80%] phone:w-[90%] justify-center " >
-                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[42px] p-[25px] flex gap-5" >
+                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[22px] p-[25px] flex gap-5" >
                         <div className=" " >
                             <div className=" h-[50px] w-[50px] ">
                                 <img src={htb1} className=" h-full w-full " alt="" />
@@ -122,7 +123,7 @@ const Howtobuy = () => {
 
                     </div>
 
-                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[42px] p-[25px] flex gap-5" >
+                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[22px] p-[25px] flex gap-5" >
                         <div className=" " >
                             <div className=" h-[50px] w-[50px] ">
                                 <img src={htb2} className=" h-full w-full " alt="" />
@@ -135,7 +136,7 @@ const Howtobuy = () => {
 
                     </div>
 
-                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[42px] p-[25px] flex gap-5" >
+                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[22px] p-[25px] flex gap-5" >
                         <div className=" " >
                             <div className=" h-[50px] w-[50px] ">
                                 <img src={htb3} className=" h-full w-full " alt="" />
@@ -148,7 +149,7 @@ const Howtobuy = () => {
 
                     </div>
 
-                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[42px] p-[25px] flex gap-5" >
+                    <div className=" min-h-[151px] max-w-[433px] origin-top-left   bg-purple-200 bg-opacity-10 rounded-[10px] border-neutral-500 backdrop-blur-[22px] p-[25px] flex gap-5" >
                         <div className=" " >
                             <div className=" h-[50px] w-[50px] ">
                                 <img src={htb4} className=" h-full w-full " alt="" />

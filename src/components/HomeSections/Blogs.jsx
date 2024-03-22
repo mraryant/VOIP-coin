@@ -10,8 +10,8 @@ const Blogs = () => {
         <>
             <div id="blog-main" className="flex relative gap-20 flex-col my-20 phone:px-5  min-h-screen bg-no-repeat items-center justify-center  ">
 
-                <div className=" absolute left-0 top-[-20%]  phone:top-[-10%]   z-0" >
-                    <svg xmlns="http://www.w3.org/2000/svg" width={1193} height={1240} viewBox="0 0 1193 1240" fill="none">
+                <div className=" absolute max-w-[1193px] left-0 top-[-20%]  phone:top-[40%]   z-0" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={1240} viewBox="0 0 1193 1240" fill="none">
                         <g filter="url(#filter0_bdf_1020_145)">
                             <path d="M610.686 561.5C610.686 750.381 401.567 1003.91 212.686 1003.91C-65.3146 1003.91 -136.814 1032.79 -136.814 843.909C-136.814 655.027 -149.696 227 39.1855 227C228.067 227 610.686 372.619 610.686 561.5Z" fill="url(#paint0_linear_1020_145)" fillOpacity="0.2" shapeRendering="crispEdges" />
                         </g>

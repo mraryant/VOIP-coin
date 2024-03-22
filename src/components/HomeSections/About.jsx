@@ -11,7 +11,7 @@ const About = () => {
             <div className="flex relative flex-col items-center justify-center my-[100px]">
 
 
-                <div id="blob" className=" absolute right-0 top-[10%]  z-0 " >
+                <div id="blob" className=" absolute right-0 top-[10%] tablet:top-[40%]  z-0 " >
                     <svg xmlns="http://www.w3.org/2000/svg" width={836} height={987} viewBox="0 0 836 987" fill="none">
                         <g filter="url(#filter0_bdf_1020_149)">
                             <path d="M833 519.62C833 642.58 715.884 753 593.071 753C470.257 753 227 614.913 227 491.953C227 368.993 507.645 227 630.458 227C753.272 227 833 396.66 833 519.62Z" fill="#551FE5" fillOpacity="0.35" shapeRendering="crispEdges" />
@@ -76,21 +76,21 @@ const About = () => {
 
 
 
-                                className='flex flex-col gap-[20px] w-[85%] tablet:w-[100%] text-[23px]  leading-tight'>
+                                className='flex flex-col gap-[20px] w-[75%] tablet:w-[100%] text-[23px]  leading-tight'>
                                 <li className=" font-extralight " >
-                                    <span className="text-3xl font-medium "> Privacy : </span> Make secure calls to anywhere in the world anonymously and hassle free.
+                                    <span className="text-2xl font-medium "> Privacy : </span> Make secure calls to anywhere in the world anonymously and hassle free.
                                 </li>
                                 <li className="font-extralight  " >
-                                    <span className="text-3xl font-medium "> Benefits : </span> Call Routing, Call Termination, Call Forwarding, Call Conferencing, Direct Inward dialing also.
+                                    <span className="text-2xl font-medium "> Benefits : </span> Call Routing, Call Termination, Call Forwarding, Call Conferencing, Direct Inward dialing also.
                                 </li>
                                 <li className="font-extralight  " >
-                                    <span className="text-3xl font-medium "> Accessibility : </span> Connect unlimited local and International with your love ones, Families or business clients using blockchain technology.
+                                    <span className="text-2xl font-medium "> Accessibility : </span> Connect unlimited local and International with your love ones, Families or business clients using blockchain technology.
                                 </li>
                                 <li className="font-extralight  " >
-                                    <span className="text-3xl font-medium "> Security : </span> Enjoy end-end Encrypted calls while keeping identity secure with Voip Finance DeFi and Web3 systems.
+                                    <span className="text-2xl font-medium "> Security : </span> Enjoy end-end Encrypted calls while keeping identity secure with Voip Finance DeFi and Web3 systems.
                                 </li>
                                 <li className="font-extralight  " >
-                                    <span className="text-3xl font-medium ">Rewards :</span> Earn rewards and make calls globally. Use your rewards to make and receive calls seamlessly and save your spendings.
+                                    <span className="text-2xl font-medium ">Rewards :</span> Earn rewards to make calls globally. Use your rewards to make and receive calls seamlessly and save your spendings.
                                 </li>
                             </ul>
                         </div>

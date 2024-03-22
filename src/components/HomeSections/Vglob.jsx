@@ -5,10 +5,10 @@ import vglob from "../../assets/Images/vglob.png"
 const Vglob = () => {
     return (
         <>
-            <div id="listing" className=' relative min-h-[30vh] w-[100vw] px-10 py-10   flex flex-col gap-20'>
+            <div id="listing" className='   relative min-h-[30vh] w-[100vw] px-10 py-10   flex flex-col gap-20'>
 
                 <div className=" absolute left-0 top-[-60%]    z-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={877} height={1275} viewBox="0 0 877 1275" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={1275} viewBox="0 0 877 1275" fill="none">
                         <g filter="url(#filter0_bdf_1102_467)">
                             <path d="M294.359 651.975C292.306 744.87 98.1467 866.605 5.2512 864.552C-87.6443 862.499 -156.825 717.23 -154.772 624.335C-152.719 531.439 37.7847 408.148 130.68 410.201C223.576 412.254 296.412 559.079 294.359 651.975Z" fill="#6721E6" />
                         </g>
@@ -29,7 +29,8 @@ const Vglob = () => {
                         </defs>
                     </svg>
                 </div>
-                <div className=" absolute right-0 top-[-25%]    z-0">
+
+                <div className=" absolute right-0 top-[-25%] tablet:top-[0%]    z-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width={899} height={1192} viewBox="0 0 899 1192" fill="none">
                         <g filter="url(#filter0_bdf_1102_466)">
                             <path d="M975 668.438C975 741.567 654.343 839.181 569.628 739.677C481.468 739.677 410 680.394 410 607.264C410 534.135 566.183 410 654.343 410C742.503 410 975 595.308 975 668.438Z" fill="#8E00D3" fillOpacity="0.9" shapeRendering="crispEdges" />
@@ -57,7 +58,7 @@ const Vglob = () => {
 
 
 
-                    <div id="filler-left" className='w-[50%] h-[100%] flex tablet:w-[80%]  justify-center '>
+                    <div id="filler-left" className=' z-10 w-[50%] h-[100%] flex tablet:w-[80%]  justify-center '>
                         <img
                             src={vglob}
                             alt='VOIP  '

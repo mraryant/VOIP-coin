@@ -8,18 +8,18 @@ const Step = ({ color, phase, heading, pera, pera2 }) => {
 
                 <div id="step-left" className="w-[40%] relative phone:tablet:w-[95%] tablet:w-[90%]">
                     <div className="  w-[100%] relative flex justify-center " >
-                        <h1 className=" text-stroke-custom text-4xl font-bold   text-center absolute bottom-[100%] phone:text-3xl "
+                        <h1 className=" text-stroke-custom text-4xl font-bold   text-center absolute bottom-[100%] phone:text-4xl "
                         >{phase}</h1>
                     </div>
-                    <div className={`roadmap-clip py-3 pl-[50px] pr-3 ${color}`} >
-                        <h2 className="text-3xl phone:text-2xl " >{heading}</h2>
+                    <div className={`roadmap-clip py-3   px-9 ${color}`} >
+                        <h2 className="text-3xl phone:text-2xl text-center " >{heading}</h2>
                     </div>
                 </div>
 
                 <div id="step-right " className="w-[50%] flex justify-center phone:tablet:w-[95%] tablet:w-[90%] ">
                     <div className="w-[90%]  flex gap-3 phone:w-[100%]  " >
                         <p className=" " >✧</p>
-                        <div className='flex flex-col gap-3'>
+                        <div className='flex flex-col gap-2'>
                             <p className=" text-xl" dangerouslySetInnerHTML={{ __html: pera }}></p>
                             <p className=" text-xl" dangerouslySetInnerHTML={{ __html: pera2 }}></p>
                         </div>
@@ -43,10 +43,10 @@ Step.propTypes = {
 const Roadmap = () => {
     return (
         <>
-            <div id="Roadmap" className=" relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
+            <div id="Roadmap" className="   relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20">
 
-                <div className=" absolute left-0 top-[-20%]  phone:top-[-10%]   z-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={1069} height={1371} viewBox="0 0 1069 1371" fill="none">
+                <div className=" absolute h-[100%]  left-0 top-[-20%]  phone:top-[-10%]   z-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" className=' w-[100%]   ' height={1371} viewBox="0 0 1069 1371" fill="none">
                         <g filter="url(#filter0_bdf_1020_134)">
                             <path d="M487 792.793C487 901.112 93.1315 1045.69 -10.9257 898.312C-119.215 898.312 -207 810.503 -207 702.185C-207 593.866 -15.1575 410 93.1314 410C201.42 410 487 684.475 487 792.793Z" fill="#8E00D3" fillOpacity="0.8" shapeRendering="crispEdges" />
                         </g>
@@ -102,7 +102,7 @@ const Roadmap = () => {
                     </p>
                 </div>
 
-                <div className='flex flex-col gap-8'>
+                <div className='flex flex-col gap-5'>
 
 
                     <Step
