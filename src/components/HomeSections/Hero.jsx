@@ -21,17 +21,17 @@ const Hero = () => {
 
             <div
                 id="Hero"
-                className=" overflow-x-hidden mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
+                className=" mb-[50px]  relative  min-h-[100vh] w-[100vw] flex justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center "
             >
 
 
-                <div id="blob" className=" min-w-[100%]  h-[100vh]   absolute left-0 top-[-10%]   tablet:min-w-[150%] tablet:top-[-5%] phone:tablet:top-[-0%] phone:tablet:min-w-[200%]  z-0 ">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} viewBox="0 0 1246 1010" fill="none">
+                <div id="blob" className=" max-w-[1246px]  absolute left-0 top-[-10%]  z-0 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1010" viewBox="0 0 1246 1010" fill="none">
                         <g filter="url(#filter0_bdf_1020_171)">
                             <path d="M-63.1577 238.455C13.7903 93.0208 142.965 102.611 263.676 166.478C384.388 230.346 681.873 305.569 604.925 451.003C874.254 658.547 128.005 825.459 7.29294 761.592C-113.419 697.724 -140.106 383.889 -63.1577 238.455Z" fill="#551FE5" fillOpacity="0.3" shapeRendering="crispEdges" />
                         </g>
                         <defs>
-                            <filter id="filter0_bdf_1020_171" x="-332.812" y="-104.109" width="2077.82" height="2013.41" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                            <filter id="filter0_bdf_1020_171" x="-332.812" y="-104.109" width="1577.82" height="1113.41" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                                 <feFlood floodOpacity="0" result="BackgroundImageFix" />
                                 <feGaussianBlur in="BackgroundImageFix" stdDeviation="25.2" />
                                 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1020_171" />
@@ -47,6 +47,8 @@ const Hero = () => {
                         </defs>
                     </svg>
                 </div>
+
+
 
 
                 <div
