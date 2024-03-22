@@ -9,13 +9,13 @@ const Faqs = () => {
 
     const accordionItems = [
         {
-            question: 'What is Flowbite?',
+            question: 'What is VOIP?',
             answer: (
-                <div>
-                    <p className="mb-2 text-gray-500 ">
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nihil, laborum quod repellendus esse accusamus iste molestias! Repudiandae consectetur aspernatur adipisci non atque, nostrum odit eveniet. Fugiat atque fugit corporis.
                     </p>
-                    <p className="text-gray-500 ">
+                    <p className="text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam voluptatum natus. Dolorem soluta maxime expedita et! Debitis, eaque nesciunt!
                     </p>
                 </div>
@@ -24,30 +24,30 @@ const Faqs = () => {
         {
             question: 'Is there a Figma file available?',
             answer: (
-                <div>
-                    <p className="mb-2 text-gray-500 ">
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et illum possimus laborum natus consequatur! Aperiam exercitationem provident facere reiciendis.
                     </p>
-                    <p className="text-gray-500 ">
+                    <p className="text-gray-300 ">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repellendus minima eius pariatur eum similique beatae impedit dolorum fuga nisi.
                     </p>
                 </div>
             ),
         },
         {
-            question: 'What are the differences between Flowbite and Tailwind UI?',
+            question: 'What are the differences between VOIP and Other Coin?',
             answer: (
-                <div>
-                    <p className="mb-2 text-gray-500 ">
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid iure dicta reiciendis doloribus error et dolores soluta quod quos.
                     </p>
-                    <p className="mb-2 text-gray-500 ">
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id architecto, est a vel et itaque sapiente quidem quae repudiandae illum nostrum, voluptatem perspiciatis labore, excepturi obcaecati hic. Numquam, ut?
                     </p>
-                    <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-500 list-disc ">
+                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
+                    <ul className="ps-5 text-gray-300 list-disc ">
                         <li>
-                            <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
+                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
                                 Lorem ipsum dolor sit amet.
                             </a>
                         </li>
@@ -61,19 +61,19 @@ const Faqs = () => {
             ),
         },
         {
-            question: 'What are the differences between Flowbite and Tailwind UI?',
+            question: 'What are the differences between VOIP and Other Coin?',
             answer: (
-                <div>
-                    <p className="mb-2 text-gray-500 ">
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum possimus dicta doloribus saepe velit cum aliquid, asperiores debitis blanditiis modi non incidunt deleniti aliquam officiis quae ut ipsum nemo?
                     </p>
-                    <p className="mb-2 text-gray-500 ">
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos recusandae saepe dolorem consectetur minus quo mollitia assumenda neque explicabo.
                     </p>
-                    <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-500 list-disc ">
+                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
+                    <ul className="ps-5 text-gray-300 list-disc ">
                         <li>
-                            <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
+                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
                                 Lorem ipsum dolor sit amet.
                             </a>
                         </li>
@@ -87,19 +87,19 @@ const Faqs = () => {
             ),
         },
         {
-            question: 'What are the differences between Flowbite and Tailwind UI?',
+            question: 'What are the differences between VOIP and Other Coin?',
             answer: (
-                <div>
-                    <p className="mb-2 text-gray-500 ">
+                <div className='' >
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum consequatur labore, quas vitae nisi iste eligendi non beatae corrupti sit facere a temporibus deserunt aut velit natus ipsum ipsa!
                     </p>
-                    <p className="mb-2 text-gray-500 ">
+                    <p className="mb-2 text-gray-300 ">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam quae veniam consequuntur. Eveniet doloribus temporibus fugiat iure cum nesciunt repellendus pariatur soluta maxime fuga, magni praesentium harum non officia?
                     </p>
-                    <p className="mb-2 text-gray-500 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-500 list-disc ">
+                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
+                    <ul className="ps-5 text-gray-300 list-disc ">
                         <li>
-                            <a href="https://flowbite.com/pro/" className="text-blue-600  hover:underline">
+                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
                                 Lorem ipsum dolor sit amet.
                             </a>
                         </li>
@@ -171,7 +171,7 @@ const Faqs = () => {
                                         <h2 id={`accordion-collapse-heading-${index + 1}`}>
                                             <button
                                                 type="button"
-                                                className={`flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200  focus:ring-2 focus:ring-gray-500   focus:bg-transparent    gap-3 ${activeAccordion === index ? 'active' : ''
+                                                className={`flex items-center justify-between w-full p-5 rounded-t-xl font-medium rtl:text-right text-gray-300 border border-b-0 border-gray-200  focus:ring-2 focus:ring-gray-500   focus:bg-transparent    gap-3 ${activeAccordion === index ? 'active' : ''
                                                     }`}
                                                 onClick={() => toggleAccordion(index)}
                                                 aria-expanded={activeAccordion === index ? 'true' : 'false'}
