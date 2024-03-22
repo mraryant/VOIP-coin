@@ -1,9 +1,9 @@
 
-import blog1 from "../../assets/Images/blog1.jpg"
-import blog2 from "../../assets/Images/blog2.jpg"
-import blog3 from "../../assets/Images/blog3.jpg"
-import blog4 from "../../assets/Images/blog4.jpg"
-import blog5 from "../../assets/Images/blog5.jpg"
+import blog1 from "../../assets/Images/blog1.png"
+import blog2 from "../../assets/Images/blog2.png"
+import blog3 from "../../assets/Images/blog3.png"
+import blog4 from "../../assets/Images/blog4.png"
+import blog5 from "../../assets/Images/blog5.png"
 
 const Blogs = () => {
     return (
