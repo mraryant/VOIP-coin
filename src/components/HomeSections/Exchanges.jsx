@@ -1,5 +1,5 @@
 
-import bitmart from "../../assets/Images/bitmart.png"
+import bitmart from "../../assets/Images/gateioLogo.svg"
 import uniswap from "../../assets/Images/uniswap.png"
 import mexc from "../../assets/Images/mexc.png"
 
@@ -30,13 +30,13 @@ const Exchanges = () => {
 
                         </div>
                         <div className=" flex justify-center items-center  h-52 max-w-[332px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px]" >
-                            <div className="p-3">
+                            <div className="px-6">
                                 <img src={mexc} alt="" />
                             </div>
 
                         </div>
                         <div className=" flex justify-center items-center  h-52 max-w-[332px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px]" >
-                            <div className="p-3">
+                            <div className="p-7">
                                 <img src={bitmart} alt="" />
                             </div>
 

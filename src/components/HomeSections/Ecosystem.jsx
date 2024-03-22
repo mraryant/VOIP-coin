@@ -1,4 +1,8 @@
-import echo from "../../assets/Images/echo.png"
+import echo1 from "../../assets/Images/echo1.png"
+import echo2 from "../../assets/Images/echo2.png"
+import echo3 from "../../assets/Images/echo3.png"
+import echo4 from "../../assets/Images/echo4.png"
+import echo5 from "../../assets/Images/echo5.png"
 
 const Ecosystem = () => {
     return (
@@ -17,11 +21,11 @@ const Ecosystem = () => {
                 <div className="flex flex-wrap justify-center items-center max-w-[1400px] gap-28 laptop:gap-10 " >
 
 
-                    <div className="brradis max-w-[352px] min-h-[350px] origin-top-left   bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
+                    <div className="brradis z-10 max-w-[352px] min-h-[350px] origin-top-left   bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
 
                         <div className="flex gap-5 px-3 py-10 justify-center items-center flex-col">
-                            <div className="w-[72px] h-[72px] flex justify-center items-center p-4 echosystem-gradient rounded-full " >
-                                <img src={echo} alt="" />
+                            <div className="w-[72px] h-[72px] flex justify-center items-center p-3 echosystem-gradient rounded-full " >
+                                <img className=" w-[100%] h-[100%] shadow-xl text-bold  " src={echo1} alt="" />
                             </div>
                             <div className="text-3xl text-center">
                                 <h3>Introducing Voip Token into DeFi    </h3>
@@ -33,11 +37,11 @@ const Ecosystem = () => {
                         </div>
                     </div>
 
-                    <div className="brradis max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
+                    <div className="brradis z-10 max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
 
                         <div className="flex gap-5 px-3 py-10 justify-center items-center flex-col">
-                            <div className="w-[72px] h-[72px] flex justify-center items-center p-4 echosystem-gradient rounded-full " >
-                                <img src={echo} alt="" />
+                            <div className="w-[72px] h-[72px] flex justify-center items-center p-3 echosystem-gradient rounded-full " >
+                                <img className=" w-[100%] h-[100%] shadow-xl text-bold  " src={echo2} alt="" />
                             </div>
                             <div className="text-3xl text-center">
                                 <h3>Empowering Voip  with DeFi & Web3    </h3>
@@ -49,11 +53,11 @@ const Ecosystem = () => {
                         </div>
                     </div>
 
-                    <div className="brradis max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
+                    <div className="brradis z-10 max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
 
                         <div className="flex gap-5 px-3 py-10 justify-center items-center flex-col">
-                            <div className="w-[72px] h-[72px] flex justify-center items-center p-4 echosystem-gradient rounded-full " >
-                                <img src={echo} alt="" />
+                            <div className="w-[72px] h-[72px] flex justify-center items-center p-3 echosystem-gradient rounded-full " >
+                                <img className=" w-[100%] h-[100%] shadow-xl text-bold  " src={echo3} alt="" />
                             </div>
                             <div className="text-3xl text-center">
                                 <h3>Effortless Connect with Direct Inward Dial  </h3>
@@ -65,11 +69,11 @@ const Ecosystem = () => {
                         </div>
                     </div>
 
-                    <div className="brradis max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
+                    <div className="brradis z-10 max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
 
                         <div className="flex gap-5 px-3 py-10 justify-center items-center flex-col">
-                            <div className="w-[72px] h-[72px] flex justify-center items-center p-4 echosystem-gradient rounded-full " >
-                                <img src={echo} alt="" />
+                            <div className="w-[72px] h-[72px] flex justify-center items-center p-3 echosystem-gradient rounded-full " >
+                                <img className=" w-[100%] h-[100%] shadow-xl text-bold  " src={echo4} alt="" />
                             </div>
                             <div className="text-3xl text-center">
                                 <h3> Stake and Earn Rewards in Voip Token    </h3>
@@ -81,11 +85,11 @@ const Ecosystem = () => {
                         </div>
                     </div>
 
-                    <div className="brradis max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
+                    <div className="brradis z-10 max-w-[352px] min-h-[350px] origin-top-left    bg-blue-400  bg-opacity-10 rounded-[30px] border-2   " >
 
                         <div className="flex gap-5 px-3 py-10 justify-center items-center flex-col">
-                            <div className="w-[72px] h-[72px] flex justify-center items-center p-4 echosystem-gradient rounded-full " >
-                                <img src={echo} alt="" />
+                            <div className="w-[72px] h-[72px] flex justify-center items-center p-3 echosystem-gradient rounded-full " >
+                                <img className=" w-[100%] h-[100%] shadow-xl text-bold  " src={echo5} alt="" />
                             </div>
                             <div className="text-3xl text-center">
                                 <h3>Integrating Voip with   Web3 PBX  </h3>

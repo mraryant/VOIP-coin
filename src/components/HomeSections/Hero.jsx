@@ -59,7 +59,7 @@ const Hero = () => {
 
                         <h1 className=" text-[50px] font-bold relative font-outfit leading-tight  desktop:text-center phone:text-[35px]    ">
 
-                            Revolutionizing the <br />
+                            Explore the Future of <br />
                             <span className=" phone:text-[27px] text-primary-gradient">
                                 Voice Over Internet Protocol <br />
                             </span>
@@ -67,8 +67,8 @@ const Hero = () => {
                             through blockchain technology
                         </h1>
 
-                        <p className=" flex font-light leading-tight text-gray-200 text-[18px] w-[80%] tracking-[0.35px] desktop:w-[90%] desktop:text-center desktop:m-auto max-[550px]:w-[100%] ">
-                            Our platform is user-friendly, secure, and designed to provide you with the tools and resources you need to make informed trades and maximize your profits.. Our platform is user-friendly, secure, and designed to
+                        <p className=" flex font-light leading-snug text-gray-200 text-[18px] w-[80%] tracking-[0.35px] desktop:w-[90%] desktop:text-center  desktop:m-auto desktop:phone:w-[100%] ">
+                            Voip Finance offers a paradigm shift in the way individuals or business connect, & communicate in {"today's"} digital landscape, that leverage the power of blockchain to enhance security, privacy, and flexibility in communication.
 
                         </p>
                     </div>
@@ -158,8 +158,8 @@ const Hero = () => {
                                 Voip Finance
                             </h2>
 
-                            <div className="reletive flex left-0 w-[100%] justify-center items-center p-3  ">
-                                <p className="text-[17px] leading-tight  text-center  ">
+                            <div className="reletive flex left-0 w-[100%] justify-center items-center p-3 phone:p-1 ">
+                                <p className="text-[17px] leading-tight  text-center   ">
                                     VOIP Finance aims to disrupt the traditional VoIP industry by
                                     leveraging blockchain technology to provide a decentralized,
                                     secure, and cost-effective solution for voice communication.
@@ -196,29 +196,32 @@ const Hero = () => {
                             <div id="buy-buttons" className=" w-[90%] space-y-2">
 
                                 <div className=" flex gap-5 flex-wrap  justify-center  ">
-                                    <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
-                                        <img src={eth} width={15} height={25} alt="" />
-                                        <button
-                                            type="button"
-                                            className=" font-outfit  text-black   font-bold   text-sm ">
-                                            ETH
-                                        </button>
-                                    </div>
-                                    <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
+
+                                    <button type="button" className=" " >
+
+                                        <div className="flex  justify-center gap-1     w-[120px] px-3 bg-white   py-2 rounded-md ">
+                                            <img src={eth} width={25} height={25} alt="" />
+                                            <div
+                                                className=" flex items-center justify-center font-outfit  text-black   font-bold    text-base ">
+                                                ETH
+                                            </div>
+                                        </div>
+                                    </button>
+
+                                    <div className="flex  justify-center gap-2   w-[120px] px-3 bg-white   py-2 rounded-md ">
                                         <img src={usdt} width={25} height={25} alt="" />
-                                        <button
-                                            type="button"
-                                            className=" font-outfit  text-black   font-bold   text-sm      ">
+                                        <div
+                                            className=" flex items-center justify-center font-outfit  text-black   font-bold    text-base      ">
                                             USDT
-                                        </button>
+                                        </div>
                                     </div>
-                                    <div className="flex gap-3 border pl-[1.5vw] pr-[2.7vw] bg-white   py-2 rounded-md ">
+
+                                    <div className="flex  justify-center gap-2   w-[120px] px-3 bg-white   py-2 rounded-md ">
                                         <img src={bnb} width={25} height={25} alt="" />
-                                        <button
-                                            type="button"
-                                            className=" font-outfit  text-black   font-bold   text-sm      ">
+                                        <div
+                                            className=" flex items-center justify-center   font-outfit  text-black   font-bold    text-base      ">
                                             CARD
-                                        </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

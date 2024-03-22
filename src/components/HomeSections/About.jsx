@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             {/* bg-[url('/assets/aboutbg.svg')] */}
-            <div className="flex relative flex-col items-center justify-center my-[100px]">
+            <div className="flex relative gap-20 flex-col items-center justify-center my-[100px]">
 
 
                 <div id="blob" className=" absolute right-0 top-[10%] tablet:top-[40%]  z-0 " >
@@ -41,12 +41,12 @@ const About = () => {
                         What Is <span className="text-primary-gradient    " >Voip Finance</span>
                     </h1>
                     <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
-                        VOIP Finance aims to disrupt the traditional VoIP industry by leveraging blockchain technology to provide a decentralized, secure, and cost-effective solution for voice communication. The VOIP token serves as the native currency within the VOIP Finance ecosystem, enabling users to
+                        VoIP Finance {"isn't"} your typical communication tool—it seamlessly merges Voice over Internet Protocol (VoIP) with blockchain technology, offering a unique approach that enables the transmission of voice communication and multimedia sessions over the internet
                     </p>
                 </div>
 
 
-                <div id="about-main" className=" z-10 relative flex justify-center items-center py-10 min-h-[100vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
+                <div id="about-main" className=" z-10 relative flex justify-center   py-10 min-h-[100vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
 
 
 
@@ -63,18 +63,17 @@ const About = () => {
                     </div>
 
                     <div id="about-right" className=' h-[100%] w-[60%] flex flex-col justify-center items-center    gap-[20px]  tablet:w-[80%]'>
-                        <div className='w-[100%] flex flex-col justify-center gap-[30px]'>
+                        <div className='w-[100%] flex flex-col   gap-[30px]'>
                             <div className=" space-y-4 ">
-                                <h3 className='  text-primary-gradient text-xl '>ABOUT US</h3>
-                                <h1
-                                    className='text-5xl oxanium '> <span className="text-primary-gradient font-bold " >VOIP</span>  DeFi Crypto Call
-                                </h1>
+                                <h3 className='  text-primary-gradient font-bold text-4xl '>Key Features</h3>
+                                {/* <h1
+                                    className='text-5xl oxanium '>
+                                    <span className="text-primary-gradient font-bold " >VOIP</span>  DeFi Crypto Call
+                                </h1> */}
                             </div>
-                            {/* <p className='text-xl leading-tight'> IPCD, a century innovative institution, is a beacon of transformation in organizational dynamics, steadfastly partnering with organizations to elevate their people functions and champion better work and working lives.     </p> */}
+
 
                             <ul
-
-
 
                                 className='flex flex-col gap-[20px] w-[75%] tablet:w-[100%] text-[23px]  leading-tight'>
                                 <li className=" font-extralight " >
