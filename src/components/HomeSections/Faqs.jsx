@@ -9,106 +9,74 @@ const Faqs = () => {
 
     const accordionItems = [
         {
-            question: 'What is VOIP?',
+            question: 'What is VOIP Token?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nihil, laborum quod repellendus esse accusamus iste molestias! Repudiandae consectetur aspernatur adipisci non atque, nostrum odit eveniet. Fugiat atque fugit corporis.
+                        VOIP Token is the native cryptocurrency of the VoIP Finance platform, serving as the primary utility token within the ecosystem. It facilitates various transactions, rewards users for participation in platform activities, and provides governance rights to token holders. VOIP Token plays a crucial role in powering the decentralized finance infrastructure of VoIP Finance.
+
                     </p>
-                    <p className="text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quam voluptatum natus. Dolorem soluta maxime expedita et! Debitis, eaque nesciunt!
-                    </p>
+
                 </div>
             ),
         },
         {
-            question: 'Is there a Figma file available?',
+            question: 'When and where will I receive my VOIP tokens?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto et illum possimus laborum natus consequatur! Aperiam exercitationem provident facere reiciendis.
+                        The distribution of VOIP tokens typically occurs after the completion of the token sale event or presale stage. Token holders will receive their VOIP tokens directly into their designated wallet addresses. Ensure that you follow the instructions provided by VoIP Finance for token distribution timelines and procedures.
+
                     </p>
-                    <p className="text-gray-300 ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repellendus minima eius pariatur eum similique beatae impedit dolorum fuga nisi.
-                    </p>
+
                 </div>
             ),
         },
         {
-            question: 'What are the differences between VOIP and Other Coin?',
+            question: 'How many presale stages are there?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid iure dicta reiciendis doloribus error et dolores soluta quod quos.
+                        VoIP Finance may conduct multiple presale stages to provide early access to VOIP tokens for different investor groups. Stay informed about presale announcements and participate in the presale stages as per the guidelines provided by VoIP Finance.
+
                     </p>
-                    <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id architecto, est a vel et itaque sapiente quidem quae repudiandae illum nostrum, voluptatem perspiciatis labore, excepturi obcaecati hic. Numquam, ut?
-                    </p>
-                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-300 list-disc ">
-                        <li>
-                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
-                                Lorem ipsum dolor sit amet.
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Lorem, ipsum.
-                            </a>
-                        </li>
-                    </ul>
+
+
+
                 </div>
             ),
         },
         {
-            question: 'What are the differences between VOIP and Other Coin?',
+            question: 'When and where will VOIP launch?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nostrum possimus dicta doloribus saepe velit cum aliquid, asperiores debitis blanditiis modi non incidunt deleniti aliquam officiis quae ut ipsum nemo?
+                        The Voip is set to launch on mutliple exchanges, launch of VOIP tokens and the VoIP Finance platform will be announced by VoIP Finance through its official channels. Stay tuned for updates on the launch date, platform features, and opportunities to engage with the VoIP Finance ecosystem.
+
                     </p>
-                    <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dignissimos recusandae saepe dolorem consectetur minus quo mollitia assumenda neque explicabo.
-                    </p>
-                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-300 list-disc ">
-                        <li>
-                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
-                                Lorem ipsum dolor sit amet.
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Lorem, ipsum dolor.
-                            </a>
-                        </li>
-                    </ul>
+
                 </div>
             ),
         },
         {
-            question: 'What are the differences between VOIP and Other Coin?',
+            question: 'What are the use cases for holding VoIP Tokens?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum consequatur labore, quas vitae nisi iste eligendi non beatae corrupti sit facere a temporibus deserunt aut velit natus ipsum ipsa!
+                        Holding VoIP Tokens offers various use cases within the VoIP Finance ecosystem. These include accessing top notch services such as making calls worldwide, with no extra cost, earning, rewards by staking via VoIP token into Voip Finance ecosystem.
                     </p>
+                    
+                </div>
+            ),
+        },
+        {
+            question: 'How do I contact support?',
+            answer: (
+                <div className='' >
                     <p className="mb-2 text-gray-300 ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quam quae veniam consequuntur. Eveniet doloribus temporibus fugiat iure cum nesciunt repellendus pariatur soluta maxime fuga, magni praesentium harum non officia?
+                        For support inquiries or assistance, you can reach out to our dedicated support team  through our official telegram channel. Our support staff is available to address any questions, concerns, or technical issues you may encounter while using the VoIP Finance platform.
                     </p>
-                    <p className="mb-2 text-gray-300 ">Learn more about these technologies:</p>
-                    <ul className="ps-5 text-gray-300 list-disc ">
-                        <li>
-                            <a href="https://VOIP.com/pro/" className="text-blue-600  hover:underline">
-                                Lorem ipsum dolor sit amet.
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://tailwindui.com/" rel="nofollow" className="text-blue-600  hover:underline">
-                                Lorem, ipsum dolor.
-                            </a>
-                        </li>
-                    </ul>
+                    
                 </div>
             ),
         },
