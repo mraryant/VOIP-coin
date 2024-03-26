@@ -74,110 +74,138 @@ const Blogs = () => {
                 <div className="z-10" >
                     <div className=" flex justify-center  gap-[4vmax] flex-wrap ">
 
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
 
-                                <div className=" flex flex-col gap-5">
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">What is VoIP finance</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">VoIP finance is a groundbreaking platform that merges Voice over Internet Protocol (VoIP)
+                                            technology with the innovative capabilities of blockchain and decentralized finance (DeFi).It
+                                            integrates VoIP with blockchain infrastructure, enable secure and private communication
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog2} />
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog2} />
 
-                                <div className=" flex flex-col gap-5">
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP at Your Fingertips</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">VoIP at Your Fingertips represents the seamless integration of these cutting-edge
+                                            technologies, offering users unparalleled convenience, security, and efficiency in their
+                                            communication endeavors.</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog3} />
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog3} />
 
-                                <div className=" flex flex-col gap-5">
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP Integration in Crypto Wallets</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">This innovative merger not only streamlines communication but also enhances the
+                                            functionality and accessibility of crypto transactions. Join us to explore the dynamic
+                                            synergy between VoIP and crypto wallets.</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        </a>
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog4} />
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <div className=" flex flex-col gap-5">
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog4} />
+
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Why choose VoIP Finance</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Whether {"you're"} an individual seeking secure calls or a business looking to integrate
+                                            crypto payments, VoIP Finance stands as the ultimate choice for a future-ready
+                                            communication and financial ecosystem.</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        </a>
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog5} />
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <div className=" flex flex-col gap-5">
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog5} />
+
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Reasons Behind the VoIP popularity</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Voice over Internet Protocol (VoIP) has emerged as a game-changer, revolutionizing the way
+                                            businesses and individuals connect. But what exactly propelled VoIP to the forefront of modern
+                                            communication solutions? </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
+                        </a>
 
-                            <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
+                        <a href="http://Blog.voip.finance" target="blank">
+                            <div id="blogcard" className="  p-5 flex  justify-center items-center    bg-zinc-900 rounded-[28px]  " >
 
-                                <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
+                                <div className=" max-w-[300px] h-[100%] flex gap-5 justify-center items-center flex-col    ">
 
-                                <div className=" flex flex-col gap-5">
+                                    <img className="w-full h-60   rounded-[19px] shadow border border-white" src={blog1} />
+
+                                    <div className=" flex flex-col gap-5">
 
 
-                                    <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Real-World Crypto Adoption</div>
+                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP in Blockchain</div>
 
-                                    <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div>
+                                        {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                    <div className="   text-neutral-400 text-md font-normal   leading-tight ">VOIP Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond... </div>
+                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Leveraging {"blockchain's"} decentralized infrastructure, VoIP in Blockchain ensures that
+                                            calls are encrypted, immutable, and resistant to tampering, providing users with
+                                            unparalleled privacy and peace of mind.</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
 
                     </div>
 

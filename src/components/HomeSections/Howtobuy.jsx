@@ -118,7 +118,7 @@ const Howtobuy = () => {
                         </div>
                         <div className=" flex flex-col gap-5">
                             <h1 className=" text-4xl">Step 1</h1>
-                            <p>Visit VOIP.com and Click on {'"Buy Token"'} Button</p>
+                            <p>Click on Buy button and connect to Meta mask or Trust wallet.</p>
                         </div>
 
                     </div>
@@ -131,7 +131,7 @@ const Howtobuy = () => {
                         </div>
                         <div className=" flex flex-col gap-5">
                             <h1 className=" text-4xl">Step 2</h1>
-                            <p>Connect Your Wallet to Metamask and Use USDT</p>
+                            <p>Open Metamask or Trust wallet on Mobile or Desktop Click on approve.</p>
                         </div>
 
                     </div>
@@ -144,7 +144,7 @@ const Howtobuy = () => {
                         </div>
                         <div className=" flex flex-col gap-5">
                             <h1 className=" text-4xl">Step 3</h1>
-                            <p>Choose the Number of USDT and {'"APPROVE"'}</p>
+                            <p>Select your Payment method (ETH or USDT) and input amount of currency you want to spend.</p>
                         </div>
 
                     </div>
@@ -157,7 +157,7 @@ const Howtobuy = () => {
                         </div>
                         <div className=" flex flex-col gap-5">
                             <h1 className=" text-4xl">Step 4</h1>
-                            <p>Choose the Number of USDT and {'"BUY"'} Checking Transactions</p>
+                            <p>Once transaction is been submitted wait for it to be confirmed on the blockchain.</p>
                         </div>
 
                     </div>
