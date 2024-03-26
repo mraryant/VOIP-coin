@@ -37,9 +37,9 @@ const Tokenomics = () => {
                         className='text-5xl  font-bold '>
                         <span className="text-primary-gradient    " >Tokenomics </span>
                     </h1>
-                    <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
+                    {/* <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
                         VOIP Finance aims to disrupt the traditional VoIP industry by leveraging blockchain technology to provide a decentralized, secure, and cost-effective solution for voice communication. The VOIP token serves as the native currency within the VOIP Finance ecosystem, enabling users to
-                    </p>
+                    </p> */}
                 </div>
 
                 <div>

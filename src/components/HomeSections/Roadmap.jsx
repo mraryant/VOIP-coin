@@ -97,9 +97,9 @@ const Roadmap = () => {
                         className='text-5xl  font-bold '>
                         <span className="text-primary-gradient    " >Roadmap  </span>
                     </h1>
-                    <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
+                    {/* <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
                         VOIP Finance aims to disrupt the traditional VoIP industry by leveraging blockchain technology to provide a decentralized, secure, and cost-effective solution for voice communication. The VOIP token serves as the native currency within the VOIP Finance ecosystem, enabling users to
-                    </p>
+                    </p> */}
                 </div>
 
                 <div className='flex flex-col gap-5'>
@@ -109,40 +109,40 @@ const Roadmap = () => {
                         color="bg-[--secondry1-color]"
                         phase="PHASE 1"
                         heading="Presale and Token Distribution"
-                        pera="Launch a presale to raise funds for further development and marketing effots"
-                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                        pera="VoIP finance Conduct a transparent and fair presale event to distribute tokens evenly among participants."
+                        pera2="Utilizing funds raised from the presale for targeted strategies aimed at engaging the VoIP community."
                     />
                     <Step
                         color="bg-[--secondry-color]"
                         phase="PHASE 2"
-                        heading="Presale and Token Distribution"
-                        pera="Launch a presale to raise funds for further development and marketing effots"
-                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                        heading="Dex & Cex Listing"
+                        pera="Listing VOIP tokens on both decentralized and centralized exchanges to enhance liquidity and accessibility."
+                        pera2="Prioritizing exchanges known for user experience and accessibility to ensure smooth trading experiences."
 
                     />
                     <Step
                         color="bg-[--secondry1-color]"
                         phase="PHASE 3"
-                        heading="Presale and Token Distribution"
-                        pera="Launch a presale to raise funds for further development and marketing effots"
-                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                        heading="Platform Development"
+                        pera="Developing the VOIP Finance platform with a focus on optimizing processes such as peer-to-peer calling, call routing, and billing."
+                        pera2="Implementing automated features powered by blockchain technology to streamline operations and enhance user experiences."
 
                     />
                     <Step
                         color="bg-[--secondry-color]"
                         phase="PHASE 4"
-                        heading="Presale and Token Distribution"
-                        pera="Launch a presale to raise funds for further development and marketing effots"
-                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                        heading="Platform Launch and Adoption"
+                        pera="Launching the VOIP Finance platform with incentives to attract early adopters and onboard VoIP service providers."
+                        pera2="Establishing partnerships with telecom companies and blockchain projects to expand the platform's ecosystem and drive adoption."
 
                     />
 
                     <Step
                         color="bg-[--secondry1-color]"
                         phase="PHASE 5"
-                        heading="Presale and Token Distribution"
-                        pera="Launch a presale to raise funds for further development and marketing effots"
-                        pera2="Launch a presale to raise funds for further development and marketing efforts."
+                        heading="DeFi and Web3 Integration"
+                        pera="Enhancing DeFi landscape By merging VoIP capabilities into DeFi protocols to gain access a dynamic platform to transcends conventional boundaries."
+                        pera2="Prioritizing Web3 technologies, VoIP Finance ensures scalability and innovation to meet growing user demands effectively."
 
                     />
 

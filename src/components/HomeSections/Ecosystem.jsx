@@ -14,7 +14,8 @@ const Ecosystem = () => {
                         Voip Finance   <span className="text-primary-gradient    " >Ecosystem  </span>
                     </h1>
                     <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
-                        VOIP Finance aims to disrupt the traditional VoIP industry by leveraging blockchain technology to provide a decentralized, secure, and cost-effective solution for voice communication. The VOIP token serves as the native currency within the VOIP Finance ecosystem, enabling users to
+
+                        The VoIP Finance ecosystem merges communication technology with the security and transparency of cutting-edge blockchain networks. It offers users innovative and annonymous calls solutions, using crypto, which enable seamless, enhanced privacy and security features.
                     </p>
                 </div>
 
@@ -79,7 +80,7 @@ const Ecosystem = () => {
                                 <h3> Stake and Earn Rewards in Voip Token    </h3>
                             </div>
                             <div className=" text-center" >
-                                Users who stake via VoIP can participate in the growth of the ecosystem while reaping the benefits of their investment.
+                                Users who stake VoIP tokens can participate to recieve rewards while reaping their benefits of investment. Additionally, gain access to features like make calls globally with rewards.
 
                             </div>
                         </div>
