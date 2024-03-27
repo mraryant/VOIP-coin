@@ -30,7 +30,7 @@ const Audits = () => {
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >Our platform is built on cutting-edge blockchain technology, ensuring end-to-end encryption and data protection.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
-                                    <div className="   ">
+                                    <div className=" phone:w-[50%]  ">
                                         <img src={audit1} className=" h-full w-full " alt="" />
                                     </div>
                                 </div>
@@ -41,11 +41,11 @@ const Audits = () => {
                             <div className="p-1 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Solid KYC Verification</h1>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Solid Proof KYC </h1>
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >We prioritize transparency, trust, and regulatory compliance. That’s why our KYC process is backed by Solid Proof.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
-                                    <div className="   ">
+                                    <div className=" phone:w-[50%]  ">
                                         <img src={audit2} className=" h-full w-full " alt="" />
                                     </div>
                                 </div>
@@ -60,8 +60,8 @@ const Audits = () => {
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >
                                         {"We've"} partnered with Coinsult for rigorous audits of our smart contracts and platform infrastructure.</p>
                                 </div>
-                                <div className=" w-[70%] flex items-center justify-center " >
-                                    <div className="   ">
+                                <div className=" w-[80%] flex items-center justify-center " >
+                                    <div className=" phone:w-[50%]  ">
                                         <img src={audit3} className=" h-full w-full " alt="" />
                                     </div>
                                 </div>
