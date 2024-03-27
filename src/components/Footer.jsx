@@ -1,5 +1,5 @@
 
-import logo1 from "../assets/voip_logo (1)/logotext.png"
+// import logo1 from "../assets/voip_logo (1)/logotext.png"
 import youtube from "../assets/socialmedia/YouTube.png"
 import twiter from "../assets/socialmedia/Twitter.png"
 import Telegram from "../assets/socialmedia/Telegram App.png"
@@ -20,11 +20,11 @@ const Footer = () => {
                             </a>
                             <p className=" tablet:text-center " > Voip Finance ecosystem, with its dynamic professional map, redefines accreditation and certification, setting global standards for excellence in people management through innovation, collaboration, and transformative change.</p>
                             <div className="flex gap-5" >
-                                <img className="hover:scale-[1.3] transform-scale duration-300" src={youtube} alt="" />
-                                <img className="hover:scale-[1.3] transform-scale duration-300" src={twiter} alt="" />
-                                <img className="hover:scale-[1.3] transform-scale duration-300" src={Telegram} alt="" />
-                                <img className="hover:scale-[1.3] transform-scale duration-300" src={Instagram} alt="" />
-                                <img className="hover:scale-[1.3] transform-scale duration-300" src={Medium} alt="" />
+                                <a target="blank" href="https://www.youtube.com/@voipfinance"> <img className="hover:scale-[1.3] transform-scale duration-300" src={youtube} alt="" /> </a>
+                                <a target="blank" href="https://www.x.com/voipfinance"> <img className="hover:scale-[1.3] transform-scale duration-300" src={twiter} alt="" /> </a>
+                                <a target="blank" href="https://t.me/voipfinance"> <img className="hover:scale-[1.3] transform-scale duration-300" src={Telegram} alt="" /> </a>
+                                <a target="blank" href="https://www.instagram.com/voipfinance"> <img className="hover:scale-[1.3] transform-scale duration-300" src={Instagram} alt="" /> </a>
+                                <a target="blank" href="https://discord.gg/j3rfjhTqh2"> <img className="hover:scale-[1.3] transform-scale duration-300" src={Medium} alt="" /> </a>
 
                             </div>
                         </div>

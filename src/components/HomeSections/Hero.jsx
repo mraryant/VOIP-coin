@@ -111,19 +111,19 @@ const Hero = () => {
                     <div className="flex flex-col gap-5 desktop:items-center ">
                         <h3 className="text-xl phone:text-center ">Audited & KYC | 100% Secure & Verified</h3>
                         <div id="shocial-media" className="flex gap-4 items-center ">
-                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
+                            <a target="blank" className=" hover:scale-[1.2] transform-scale duration-200  " href="https://www.youtube.com/@voipfinance">
                                 <img src={youtube} width={40} height={40} alt="" />
                             </a>
-                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
+                            <a target="blank" className=" hover:scale-[1.2] transform-scale duration-200  " href="https://www.x.com/voipfinance">
                                 <img src={Twitter} width={40} height={40} alt="" />
                             </a>
-                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
+                            <a target="blank" className=" hover:scale-[1.2] transform-scale duration-200  " href="https://t.me/voipfinance">
                                 <img src={Telegram} width={40} height={40} alt="" />
                             </a>
-                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
+                            <a target="blank" className=" hover:scale-[1.2] transform-scale duration-200  " href="https://www.instagram.com/voipfinance">
                                 <img src={Instagram} width={40} height={40} alt="" />
                             </a>
-                            <a className=" hover:scale-[1.2] transform-scale duration-200  " href="">
+                            <a target="blank" className=" hover:scale-[1.2] transform-scale duration-200  " href="https://discord.gg/j3rfjhTqh2">
                                 <img src={Medium} width={40} height={40} alt="" />
                             </a>
                         </div>
