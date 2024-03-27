@@ -29,8 +29,8 @@ const Audits = () => {
                                     <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Platform</h1>
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >Our platform is built on cutting-edge blockchain technology, ensuring end-to-end encryption and data protection.</p>
                                 </div>
-                                <div className=" w-[70%] flex items-center justify-center " >
-                                    <div className=" phone:w-[50%]  ">
+                                <div className=" w-[80%] flex items-center justify-center " >
+                                    <div className=" phone:w-[70%]  ">
                                         <img src={audit1} className=" h-full w-full " alt="" />
                                     </div>
                                 </div>
