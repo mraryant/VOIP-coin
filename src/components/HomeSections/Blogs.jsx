@@ -8,7 +8,7 @@ import blog5 from "../../assets/Images/blog5.png"
 const Blogs = () => {
     return (
         <>
-            <div id="blog-main" className="flex relative gap-20 flex-col my-20 phone:px-5  min-h-screen bg-no-repeat items-center justify-center  ">
+            <div id="blog-main" className="flex relative gap-20 flex-col my-20 phone:my-4 phone:px-5  min-h-screen bg-no-repeat items-center justify-center  ">
 
                 <div className=" absolute max-w-[1193px] left-0 top-[-20%]  phone:top-[40%]   z-0" >
                     <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={1240} viewBox="0 0 1193 1240" fill="none">
@@ -84,13 +84,13 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">What is VoIP finance</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">What is VoIP finance</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">VoIP finance is a groundbreaking platform that merges Voice over Internet Protocol (VoIP)
-                                            technology with the innovative capabilities of blockchain and decentralized finance (DeFi).It
-                                            integrates VoIP with blockchain infrastructure, enable secure and private communication
+                                        <div className="   text-neutral-400 text-md text-center font-normal   leading-tight ">Voip finance is a groundbreaking platform that merges (VOIP)
+                                            technology with the innovative capabilities of blockchain and (DeFi).It
+                                            integrates VoIP with blockchain infrastructure, which enable secure and private communication
                                         </div>
                                     </div>
                                 </div>
@@ -107,13 +107,13 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP at Your Fingertips</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">VoIP at Your Fingertips</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">VoIP at Your Fingertips represents the seamless integration of these cutting-edge
+                                        <div className="   text-neutral-400 text-md text-center font-normal     leading-tight ">VoIP at Your Fingertips represents the seamless integration of these cutting-edge
                                             technologies, offering users unparalleled convenience, security, and efficiency in their
-                                            communication endeavors.</div>
+                                            day-to-day communication endeavors.</div>
                                     </div>
                                 </div>
                             </div>
@@ -129,11 +129,11 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP Integration in Crypto Wallets</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">VoIP Integration in Crypto Wallets</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">This innovative merger not only streamlines communication but also enhances the
+                                        <div className="   text-neutral-400 text-md text-center font-normal   leading-tight ">This innovative merger not only streamlines communication but also enhances the
                                             functionality and accessibility of crypto transactions. Join us to explore the dynamic
                                             synergy between VoIP and crypto wallets.</div>
                                     </div>
@@ -151,13 +151,11 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Why choose VoIP Finance</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">Why choose Voip Finance</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Whether {"you're"} an individual seeking secure calls or a business looking to integrate
-                                            crypto payments, VoIP Finance stands as the ultimate choice for a future-ready
-                                            communication and financial ecosystem.</div>
+                                        <div className="   text-neutral-400 text-md text-center font-normal   leading-tight ">Whether {"you're"} an individual seeking secure and reliable calls or a business looking to seamlessly integrate advanced features, VoIP Finance stands as the ultimate choice for a future-ready financial ecosystem.</div>
                                     </div>
                                 </div>
                             </div>
@@ -173,13 +171,11 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">Reasons Behind the VoIP popularity</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">Reasons Behind the VOIP popularity</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Voice over Internet Protocol (VoIP) has emerged as a game-changer, revolutionizing the way
-                                            businesses and individuals connect. But what exactly propelled VoIP to the forefront of modern
-                                            communication solutions? </div>
+                                        <div className="   text-neutral-400 text-md text-center font-normal   leading-tight ">Voice over Internet Protocol (VoIP) rapidly emerged as a transformative innovation, fundamentally changing how businesses and individuals connect, thus propelling it to the forefront of new modern communication solutions.</div>
                                     </div>
                                 </div>
                             </div>
@@ -195,12 +191,12 @@ const Blogs = () => {
                                     <div className=" flex flex-col gap-5">
 
 
-                                        <div className="left-[2px] text-left  text-white text-lg font-bold leading-[18px]">VoIP in Blockchain</div>
+                                        <div className="left-[2px] text-center  text-white text-lg font-bold leading-[18px]">VoIP in Blockchain</div>
 
                                         {/* <div className="left-[2px] top-[282px]  text-white text-[12px] font-medium leading-[10px]">26 July 2023</div> */}
 
-                                        <div className="   text-neutral-400 text-md font-normal   leading-tight ">Leveraging {"blockchain's"} decentralized infrastructure, VoIP in Blockchain ensures that
-                                            calls are encrypted, immutable, and resistant to tampering, providing users with
+                                        <div className="   text-neutral-400 text-md text-center font-normal   leading-tight ">Leveraging {"blockchain's"} decentralized infrastructure, VoIP integration into Blockchain ensures that
+                                            calls are encrypted, and resistant to tampering, providing users with
                                             unparalleled privacy and peace of mind.</div>
                                     </div>
                                 </div>

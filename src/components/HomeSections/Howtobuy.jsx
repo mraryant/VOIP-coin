@@ -103,8 +103,8 @@ const Howtobuy = () => {
 
                 <div className=" text-center z-10  flex flex-col justify-center items-center gap-7 ">
                     <h1
-                        className='text-5xl  font-bold '> How To
-                        <span className="text-primary-gradient    " > Buy Voip  </span>
+                        className='text-5xl  font-bold phone:text-4xl '> How To
+                        <span className="text-primary-gradient    " > Buy VoIP  </span>
                         Coin
                     </h1>
                 </div>
@@ -144,7 +144,7 @@ const Howtobuy = () => {
                         </div>
                         <div className=" flex flex-col gap-5">
                             <h1 className=" text-4xl">Step 3</h1>
-                            <p>Select your Payment method (ETH or USDT) and input amount of currency you want to spend.</p>
+                            <p>Select your Payment method (ETH or USDT) and input amount   you want to spend.</p>
                         </div>
 
                     </div>

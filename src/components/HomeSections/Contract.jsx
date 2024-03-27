@@ -35,7 +35,7 @@ const Contract = () => {
                     <motion.h5
                         initial={{ x: 0 }}
                         whileInView={{ x: [0, -10, 10, -10, 10, 0], transition: { duration: 0.5 }, }}
-                        className=" text-[var(--prime-yellow)]  oxanium text-3xl">Contract Address
+                        className=" text-[var(--prime-yellow)] font-medium  oxanium text-3xl">Contract Address
                     </motion.h5>
 
                     <h3 className=" text-primary-gradient text-3xl tablet:text-[4vw] z-10 "  >{text}</h3>

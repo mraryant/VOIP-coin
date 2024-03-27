@@ -26,7 +26,7 @@ const Audits = () => {
                             <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center  ">Secured Landing Platform</h1>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
@@ -41,7 +41,7 @@ const Audits = () => {
                             <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center  ">Secured Landing Platform</h1>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
@@ -56,7 +56,7 @@ const Audits = () => {
                             <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center  ">Secured Landing Platform</h1>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
                                     <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >

@@ -21,13 +21,15 @@ const Team = () => {
                     </div>
 
 
-                    <div className="  z-10 gap-8 flex justify-evenly flex-wrap  ">
+                    <div className="  z-10 gap-20 flex justify-evenly flex-wrap  ">
+
+
                         <div className="text-center z-10 text-white">
                             <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={pro1} alt="Bonnie Avatar" />
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-white ">
                                 <a target="blank" href="#">Paulo Oliver <br /> Calderon</a>
                             </h3>
-                            <p>CEO/Co-founder</p>
+                            {/* <p>CEO/Co-founder</p> */}
                             <ul className="flex justify-center mt-4 space-x-4">
                                 <li>
                                     <a target="blank" href="http://www.linkedin.com/in/oliver-calderon-5836a12b1" className="text-[#5d8dff]  ">
@@ -55,7 +57,7 @@ const Team = () => {
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-white ">
                                 <a target="blank" href="#">Jake <br /> Fernandez</a>
                             </h3>
-                            <p>CTO/Co-founder</p>
+                            {/* <p>CTO/Co-founder</p> */}
                             <ul className="flex justify-center mt-4 space-x-4">
                                 <li>
                                     <a target="blank" href="https://www.linkedin.com/in/jake-fernandez-a0b7852ba" className="text-[#5d8dff]  ">
@@ -83,7 +85,7 @@ const Team = () => {
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-white ">
                                 <a target="blank" href="#">Angelo Gabriel <br /> Fernandez</a>
                             </h3>
-                            <p>SEO &amp; Marketing</p>
+                            {/* <p>SEO &amp; Marketing</p> */}
                             <ul className="flex justify-center mt-4 space-x-4">
                                 <li>
                                     <a target="blank" href="https://www.linkedin.com/in/angelogabrielfernandez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-[#5d8dff]  ">

@@ -8,7 +8,7 @@ const About = () => {
     return (
         <>
             {/* bg-[url('/assets/aboutbg.svg')] */}
-            <div className="flex relative gap-20 flex-col items-center justify-center my-[100px]">
+            <div className="flex relative gap-16 phone:gap-3 flex-col items-center justify-center my-[100px] phone:my-[50px] phone:mb-[40px] ">
 
 
                 <div id="blob" className=" absolute right-0 top-[10%] tablet:top-[40%]  z-0 " >
@@ -41,18 +41,18 @@ const About = () => {
                         What Is <span className="text-primary-gradient    " >Voip Finance</span>
                     </h1>
                     <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
-                        VoIP Finance {"isn't"} your typical communication tool—it seamlessly merges Voice over Internet Protocol (VoIP) with blockchain technology, offering a unique approach that enables the transmission of voice communication and multimedia sessions over the internet
+                        Voip Finance {"isn't"} your typical communication tool—it seamlessly merges Voice over Internet Protocol (VOIP) with blockchain technology, offering a unique approach that enables the transmission of voice communication and multimedia sessions over the internet
                     </p>
                 </div>
 
 
-                <div id="about-main" className=" z-10 relative flex justify-center   py-10 min-h-[100vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
+                <div id="about-main" className=" z-10 relative flex justify-center items-center  py-8 min-h-[60vh] gap-10 w-[100vw]  overflow-hidden tablet:flex-col tablet:items-center " >
 
 
 
 
                     <div id="about-left" className=' object-cover flex justify-center items-center h-[90%] w-[40%] tablet:w-[80%] phone:w-[90%]'>
-                        <div className=" w-[70%]   h-[80%] " >
+                        <div className=" w-[60%]   h-[90%]  tablet:w-[70%] tablet:phone:w-[75%] " >
 
                             <img
                                 src={abt1}
@@ -65,7 +65,7 @@ const About = () => {
                     <div id="about-right" className=' h-[100%] w-[60%] flex flex-col justify-center items-center    gap-[20px]  tablet:w-[80%]'>
                         <div className='w-[100%] flex flex-col   gap-[30px]'>
                             <div className=" space-y-4 ">
-                                <h3 className='  text-primary-gradient font-bold text-4xl '>Key Features</h3>
+                                <h3 className=' w-fit  text-primary-gradient font-bold text-5xl '>Key Features</h3>
                                 {/* <h1
                                     className='text-5xl oxanium '>
                                     <span className="text-primary-gradient font-bold " >VOIP</span>  DeFi Crypto Call

@@ -34,7 +34,7 @@ const Tokenomics = () => {
 
                 <div className=" z-10 text-center  flex flex-col justify-center items-center gap-7 ">
                     <h1
-                        className='text-5xl  font-bold '>
+                        className='text-6xl  font-bold '>
                         <span className="text-primary-gradient    " >Tokenomics </span>
                     </h1>
                     {/* <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">

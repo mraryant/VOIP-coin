@@ -9,18 +9,16 @@ import Medium from "../assets/socialmedia/Medium.png"
 const Footer = () => {
     return (
         <>
-
-
             <footer className="  bg-[#101010] z-10  ">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10">
                     <div className="md:flex md:justify-between tablet:justify-center z-10">
 
                         <div className=" flex  flex-col gap-5 mb-6 max-w-[40%] tablet:max-w-[100%] tablet:items-center  md:mb-0">
                             <a href="" className="flex items-center">
-                                <img src={logo1} className="h-[50px] me-3" alt="FlowBite Logo" />
-                                {/* <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Flowbite</span> */}
+                                {/* <img src={logo1} className="h-[50px] me-3" alt="FlowBite Logo" /> */}
+                                <span className="self-center text-primary-gradient text-4xl font-bold whitespace-nowrap  text-white">VoIP Finance</span>
                             </a>
-                            <p className=" tablet:text-center " >The Voip Finance Token, with its dynamic Profession Map, redefines accreditation and certification, setting global standards for excellence in people management through innovation, collaboration, and transformative change.</p>
+                            <p className=" tablet:text-center " > Voip Finance ecosystem, with its dynamic professional map, redefines accreditation and certification, setting global standards for excellence in people management through innovation, collaboration, and transformative change.</p>
                             <div className="flex gap-5" >
                                 <img className="hover:scale-[1.3] transform-scale duration-300" src={youtube} alt="" />
                                 <img className="hover:scale-[1.3] transform-scale duration-300" src={twiter} alt="" />

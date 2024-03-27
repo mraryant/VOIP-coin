@@ -7,13 +7,13 @@ const Exchanges = () => {
     return (
         <>
             <div id="exchange-main">
-                <div className="relative flex flex-col  items-center gap-20 min-h-[50vh]   w-[100vw]  justify-center   px-4   pb-20 md:px-20 desktop:flex-col desktop:items-center ">
+                <div className="relative flex flex-col  items-center gap-20 min-h-[50vh]   w-[100vw]  justify-center   px-4 pb-14 md:px-20 desktop:flex-col desktop:items-center ">
                     <div className=" text-center  flex flex-col justify-center items-center gap-7 ">
                         <h1
-                            className='text-5xl  font-bold tablet:text-4xl '>
-                            <span className="text-primary-gradient" >Voip </span>
-                            Set To Launch On
-                            <span className="text-primary-gradient" > Multiple Exchanges </span>
+                            className='text-5xl uppercase  font-bold tablet:text-4xl '>
+                            {/* <span className="text-primary-gradient" >Voip </span> */}
+                            {/* to hits */}
+                            <span className="text-primary-gradient  text-4xl " >  Coming Soon... </span>
 
                         </h1>
 
@@ -24,19 +24,19 @@ const Exchanges = () => {
 
 
                         <div className=" flex justify-center items-center  h-52 max-w-[332px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px]" >
-                            <div className="p-3">
+                            <div className="p-7">
                                 <img src={uniswap} alt="" />
                             </div>
 
                         </div>
                         <div className=" flex justify-center items-center  h-52 max-w-[332px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px]" >
-                            <div className="px-6">
+                            <div className="px-10">
                                 <img src={mexc} alt="" />
                             </div>
 
                         </div>
                         <div className=" flex justify-center items-center  h-52 max-w-[332px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px]" >
-                            <div className="p-7">
+                            <div className="p-10">
                                 <img src={bitmart} alt="" />
                             </div>
 

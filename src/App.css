@@ -142,10 +142,10 @@
 
 .brradis {
   border-radius: 30px;
-  border-top: 2px solid #ac31e8;
-  border-left: 2px solid #ac31e8;
-  border-right: 2px solid #5125d7;
-  border-bottom: 2px solid #6c47de;
+  border-top: 4px solid #ac31e8;
+  border-left: 4px solid #ac31e8;
+  border-right: 4px solid #5125d7;
+  border-bottom: 4px solid #6c47de;
 
   border-image-slice: 10;
 }
@@ -156,7 +156,7 @@
     rgba(189, 48, 255, 0.444) 2.26%,
     rgba(112, 64, 255, 0.524) 96.92%
   );
-  box-shadow: 0px 0px 10px 0px rgb(135, 23, 248);
+  box-shadow: 0px 0px 30px 0px rgba(136, 23, 248, 0.743);
   backdrop-filter: blur(2px);
 }
 

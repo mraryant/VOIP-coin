@@ -5,7 +5,7 @@ import vglob from "../../assets/Images/vglob.png"
 const Vglob = () => {
     return (
         <>
-            <div id="listing" className='   relative min-h-[30vh] w-[100vw] px-10 py-10   flex flex-col gap-20'>
+            <div id="listing" className='   relative min-h-[30vh] w-[100vw] px-10 py-10 phone:py-1   flex flex-col gap-20'>
 
                 <div className=" absolute left-0 top-[-60%]    z-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width={"100%"} height={1275} viewBox="0 0 877 1275" fill="none">
@@ -58,7 +58,7 @@ const Vglob = () => {
 
 
 
-                    <div id="filler-left" className=' z-10 w-[50%] h-[100%] flex tablet:w-[80%]  justify-center '>
+                    <div id="filler-left" className=' z-10 w-[50%] h-[100%] flex tablet:w-[80%] tablet:phone:w-[100%]  justify-center '>
                         <img
                             src={vglob}
                             alt='VOIP  '
@@ -69,12 +69,14 @@ const Vglob = () => {
 
 
                     <div id="filler-right" className=' w-[60%] flex flex-col justify-center   gap-10 tablet:w-[100%] tablet:text-center '>
-                        <h1 className='text-5xl font-bold  tablet:text-4xl   '>
-                            Real-World <span className="text-primary-gradient">Crypto Adoption</span>
+                        <h1 className='text-4xl font-bold  tablet:text-4xl   '>
+                            Redefining  VoIP with
+                            <span className="text-primary-gradient"> Blockchain </span>
+
                         </h1>
                         <div className="  max-w-2xl  ">
 
-                            <p className="text-xl   tablet:text-center">
+                            <p className="text-xl text-gray-200  tablet:text-center">
                                 Voip Finance is committed to bridging the gap between the crypto realm and real-life utility. Our mission extends beyond digital transactions, as we believe in bringing cryptocurrency to the forefront of everyday experiences. We understand that true adoption goes beyond the virtual realm, and {"that's"} why {"we're"} pioneering real-life integration like never before.
                             </p>
                         </div>

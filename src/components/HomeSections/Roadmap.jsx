@@ -94,7 +94,7 @@ const Roadmap = () => {
 
                 <div className=" z-10 text-center  flex flex-col justify-center items-center gap-7 ">
                     <h1
-                        className='text-5xl  font-bold '>
+                        className='text-6xl  font-bold '>
                         <span className="text-primary-gradient    " >Roadmap  </span>
                     </h1>
                     {/* <p className=" max-w-[60%] text-xl  laptop:max-w-[90%]  ">
@@ -102,14 +102,14 @@ const Roadmap = () => {
                     </p> */}
                 </div>
 
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-1 phone:gap-10'>
 
 
                     <Step
                         color="bg-[--secondry1-color]"
                         phase="PHASE 1"
                         heading="Presale and Token Distribution"
-                        pera="VoIP finance Conduct a transparent and fair presale event to distribute tokens evenly among participants."
+                        pera="VoIP Finance conduct a transparent and fair presale event to distribute tokens evenly among participants."
                         pera2="Utilizing funds raised from the presale for targeted strategies aimed at engaging the VoIP community."
                     />
                     <Step
@@ -133,7 +133,7 @@ const Roadmap = () => {
                         phase="PHASE 4"
                         heading="Platform Launch and Adoption"
                         pera="Launching the VOIP Finance platform with incentives to attract early adopters and onboard VoIP service providers."
-                        pera2="Establishing partnerships with telecom companies and blockchain projects to expand the platform's ecosystem and drive adoption."
+                        pera2="Establishing partnerships with telecom companies and blockchain projects to expand the platform's ecosystem."
 
                     />
 
@@ -141,7 +141,7 @@ const Roadmap = () => {
                         color="bg-[--secondry1-color]"
                         phase="PHASE 5"
                         heading="DeFi and Web3 Integration"
-                        pera="Enhancing DeFi landscape By merging VoIP capabilities into DeFi protocols to gain access a dynamic platform to transcends conventional boundaries."
+                        pera="Improving DeFi by integrating VOIP into protocols for a dynamic platform beyond traditional limits."
                         pera2="Prioritizing Web3 technologies, VoIP Finance ensures scalability and innovation to meet growing user demands effectively."
 
                     />

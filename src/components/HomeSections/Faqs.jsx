@@ -9,7 +9,7 @@ const Faqs = () => {
 
     const accordionItems = [
         {
-            question: 'What is VOIP Token?',
+            question: 'What is VOIP coin?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
@@ -21,7 +21,7 @@ const Faqs = () => {
             ),
         },
         {
-            question: 'When and where will I receive my VOIP tokens?',
+            question: 'When and where will I receive my VOIP coins?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
@@ -59,13 +59,13 @@ const Faqs = () => {
             ),
         },
         {
-            question: 'What are the use cases for holding VoIP Tokens?',
+            question: 'What are the use cases for holding VoIP coins?',
             answer: (
                 <div className='' >
                     <p className="mb-2 text-gray-300 ">
                         Holding VoIP Tokens offers various use cases within the VoIP Finance ecosystem. These include accessing top notch services such as making calls worldwide, with no extra cost, earning, rewards by staking via VoIP token into Voip Finance ecosystem.
                     </p>
-                    
+
                 </div>
             ),
         },
@@ -76,7 +76,7 @@ const Faqs = () => {
                     <p className="mb-2 text-gray-300 ">
                         For support inquiries or assistance, you can reach out to our dedicated support team  through our official telegram channel. Our support staff is available to address any questions, concerns, or technical issues you may encounter while using the VoIP Finance platform.
                     </p>
-                    
+
                 </div>
             ),
         },
