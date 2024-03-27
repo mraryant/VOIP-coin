@@ -23,11 +23,11 @@ const Audits = () => {
 
 
                         <div className=" flex justify-center items-center  min-h-52 max-w-[450px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px] p-5 phone:p-2 " >
-                            <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
+                            <div className="p-1 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
-                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Platform</h1>
+                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >Our platform is built on cutting-edge blockchain technology, ensuring end-to-end encryption and data protection.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
                                     <div className="   ">
@@ -38,11 +38,11 @@ const Audits = () => {
 
                         </div>
                         <div className=" flex justify-center items-center  min-h-52 max-w-[450px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px] p-5 phone:p-2 " >
-                            <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
+                            <div className="p-1 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
-                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Solid KYC Verification</h1>
+                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >We prioritize transparency, trust, and regulatory compliance. That’s why our KYC process is backed by Solid Proof.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
                                     <div className="   ">
@@ -53,11 +53,12 @@ const Audits = () => {
 
                         </div>
                         <div className=" flex justify-center items-center  min-h-52 max-w-[450px] origin-top-left   bg-white bg-opacity-5 rounded-[40px] border-2 border-[--secondry1-color] backdrop-blur-[42px] p-5 phone:p-2 " >
-                            <div className="p-3 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
+                            <div className="p-1 flex gap-5 phone:flex-col-reverse phone:justify-center phone:items-center ">
 
                                 <div className=" flex flex-col gap-5">
-                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Secured Landing Platform</h1>
-                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >The SCORPION platform is regulated and licensed by the Curacao EGaming licensing entity.</p>
+                                    <h1 className=" text-2xl  phone:text-center font-medium  ">Audited by Coinsult </h1>
+                                    <p className=" phone:text-center  text-sm font-thin w-auto  pr-[0.5vw] " >
+                                        {"We've"} partnered with Coinsult for rigorous audits of our smart contracts and platform infrastructure.</p>
                                 </div>
                                 <div className=" w-[70%] flex items-center justify-center " >
                                     <div className="   ">
