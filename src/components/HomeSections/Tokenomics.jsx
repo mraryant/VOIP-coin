@@ -63,6 +63,43 @@ const Tokenomics = () => {
                     </div>
                 </div>
 
+                <div className=" w-[100vw] flex justify-center">
+
+                    <div className="relative  overflow-x-auto shadow-md sm:rounded-lg">
+                        <table className="   text-sm text-left rtl:text-right    text-gray-400">
+                            <caption className="p-5 text-lg font-semibold text-left rtl:text-right      text-white  bg-gray-800">
+                                Our products
+                                <p className="mt-1 text-sm font-normal   text-gray-400"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium eaque tenetur libero veniam distinctio cum modi consequatur quos fuga saepe. </p>
+                            </caption>
+                            <thead className="text-xs   uppercase    bg-gray-700  text-gray-400">
+                                <tr>
+                                    <th scope="col" className="px-6 max-w-[400px] py-3">
+                                        Distribution
+                                    </th>
+                                    <th scope="col" className="px-6 py-3">
+                                        Percentage
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className="  border-b  bg-gray-800  border-gray-700">
+                                    <th scope="row" className="px-6 py-4   font-medium   whitespace-nowrap  text-white">
+                                        Apple MacBook Pro 17
+                                    </th>
+                                    <td className="px-6 py-4">
+                                        Silver
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </div>
+
                 <div className="flex z-10   max-w-[1300px] flex-wrap justify-center " >
 
 
