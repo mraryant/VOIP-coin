@@ -81,3 +81,24 @@ body {
     /* background-color: red; */
   }
 }
+
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(35, 1, 65); /* Track color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(222, 192, 255); /* Thumb color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color); /* Thumb color on hover */
+}
