@@ -77,11 +77,7 @@ const Navbar = () => {
                                     <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:text-[#e18dff] font-outfit   ">Home</div>
                                 </a>
                             </li>
-                            {/* <li className='md:border-none border-b-[1px] border-gradient'>
-                                <a href="#about-main">
-                                    <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">About Us</div>
-                                </a>
-                            </li> */}
+                             
                             <li className='md:border-none border-b-[1px] border-gradient '>
                                 <a href="#Ecosystem">
                                     <div className=" font-semibold block py-2 px-3 text-white rounded hover:bg-gray-700 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:text-[#e18dff] font-outfit ">Ecosystem</div>

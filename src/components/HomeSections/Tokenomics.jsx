@@ -1,6 +1,6 @@
 
-import tokobg from "../../assets/Images/tokenomics.png"
-import toko from "../../assets/Images/toketoke.png"
+// import tokobg from "../../assets/Images/tokenomics.png"
+import toko from "../../assets/Images/toketoke2.png"
 import { motion } from "framer-motion"
 
 const Tokenomics = () => {
@@ -8,7 +8,7 @@ const Tokenomics = () => {
         <>
             <div
                 id="Tokenomics"
-                className=" overflow-x-hidden relative flex gap-20 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20"
+                className=" overflow-x-hidden relative flex gap-10 phone:gap-7 flex-col   min-h-screen bg-no-repeat    items-center justify-center my-20"
             >
                 <div className=" w-[100%] h-[100%] absolute left-[-30%] top-[-10%]  tablet:w-[150%]    z-0">
                     <svg
@@ -84,25 +84,25 @@ const Tokenomics = () => {
                     </p> */}
                 </div>
 
-                <div>
-                    <div className=" z-10 relative object-cover flex justify-center items-center">
-                        <div>
-                            <img src={tokobg} alt="" id="bgimg" />
-                        </div>
+                {/* <div className=" " > */}
+                {/* <div className=" z-10   relative object-cover flex justify-center items-center"> */}
+                {/* <div className="w-[100%]" >
+                            <img src={toko} alt="" id="bgimg" />
+                        </div> */}
 
-                        <motion.div
-                            initial={{ scale: 0 }}
-                            transition={{
-                                duration: 1,
-                                ease: [0.6, 0.01, -0.05, 0.9],
-                            }}
-                            whileInView={{ scale: [0.5, 0.95] }}
-                            className=" absolute   top-[17px] object-contain w-[100%] h-[100%] flex justify-center items-center "
-                        >
-                            <img src={toko} alt="" className="  w-[100%] " id="bgimg" />
-                        </motion.div>
-                    </div>
-                </div>
+                <motion.div
+                    initial={{ scale: 0 }}
+                    transition={{
+                        duration: 1,
+                        ease: [0.6, 0.01, -0.05, 0.9],
+                    }}
+                    whileInView={{ scale: [0.5, 0.95] }}
+                    className="top-[16px] object-contain w-[50%] desktop:w-[60%] desktop:laptop:w-[70%] desktop:laptop:tablet:w-[90%] desktop:laptop:tablet:phone:w-[100%] flex justify-center items-center "
+                >
+                    <img src={toko} alt="" className="  w-[100%] " id="bgimg" />
+                </motion.div>
+                {/* </div> */}
+                {/* </div> */}
 
                 {/* <div className=" w-[100vw] flex justify-center">
                     <div className="relative p-5 overflow-x-auto shadow-md sm:rounded-lg flex flex-row gap-5 flex-wrap justify-center items-baseline">
